@@ -7,7 +7,7 @@ devices and easy to navigate for better UX for future recruiters, employers and 
 have exprerience yet as a Developer this site will future both qualifications my Nursing background and work 
 history as my Full Stack Developer in progress/ongoing.
 <h1 align="center"><--Image--></h1>
----
+
 
 ## Table of contents
 1. User Experience (UX)
@@ -22,9 +22,9 @@ history as my Full Stack Developer in progress/ongoing.
     + Frameworks, Libraries & Progragms Used
 4. Testing 
 5. Credits 
----
+
 ## User Experience (UX)
----
+
 + ### User Stories
     + First Time Visitors
     + Returing Visitors
@@ -32,13 +32,13 @@ history as my Full Stack Developer in progress/ongoing.
 + ### Design
 + ### Wireframes
 ## Features
----
+
 + Responsive on all device sizes
 + Interactive Elements 
 + Animation done in CSS3
 + Pure awesome :)
 ## Technologies Used 
----
+
 ### Languages Used
 + [HTML 5](https://en.wikipedia.org/wiki/HTML5)
 + [CSS3](https://en.wikipedia.org/wiki/CSS)
@@ -65,7 +65,7 @@ history as my Full Stack Developer in progress/ongoing.
 10. [Balsamiq](https://balsamiq.com)
     + Balsamiq was used to create the wireframes during the design process.
 ## Testing
----
+
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of <br>the project to ensure there were no syntax errors in the project.
 + [W3C Markup Validator](https://validator.w3.org/#validate_by_uri+with_options)
 + [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
@@ -86,7 +86,7 @@ done by using only pure CSS
 + Read More does not work as intended looking for a solution regarding this.
 
 ## Credits
----
+
 ### Code
 + The full-screen hero image code designed by myself and tested in [Adobe After Effects](https://www.adobe.com/uk/products/aftereffects.html)
 + [Bootstrap 4.6](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)) Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
