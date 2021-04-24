@@ -10,18 +10,18 @@ history as my Full Stack Developer in progress/ongoing.
 
 
 ## Table of contents
-1. [User Experience (UX)](#User-Experience-(UX))
+1. [User Experience (UX)](#user-experience-ux)
     + User Stories
     + Design
     + Wireframes
-2. Features 
+2. [Features](#features) 
     + Existing Features
     + Upcoming Features
-3. Technologies Used 
+3. [Technologies Used](#technologies-used)
     + Languages Used
     + Frameworks, Libraries & Progragms Used
-4. Testing 
-5. [Credits](#Credits) 
+4. [Testing](#testing)
+5. [Credits](#credits) 
 
 ## User Experience (UX)
 
