@@ -10,7 +10,7 @@ history as my Full Stack Developer in progress/ongoing.
 
 
 ## Table of contents
-1. User Experience (UX)
+1. [User Experience (UX)](#User-Experience-(UX))
     + User Stories
     + Design
     + Wireframes
@@ -21,7 +21,7 @@ history as my Full Stack Developer in progress/ongoing.
     + Languages Used
     + Frameworks, Libraries & Progragms Used
 4. Testing 
-5. Credits 
+5. [Credits](#Credits) 
 
 ## User Experience (UX)
 
