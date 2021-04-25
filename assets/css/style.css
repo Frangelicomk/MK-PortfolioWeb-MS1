@@ -22,11 +22,13 @@ h4 {
 
 /* <----------------------------------Hero Image------------------------------> */
 .heroimage {
-    position: relative;
-    
-}
-.devimage {
     display: block;
+    position: relative;
+
+}
+
+.devimage {
+    display: flex;
     position: absolute;
     background-image: url(/assets/images/profilepic.jpg);
     background-repeat: no-repeat;
@@ -41,7 +43,7 @@ h4 {
 }
 
 .nurseimage {
-    display: block;
+    display: flex;
     position: absolute;
     background-image: url(/assets/images/logomainphoto.jpg);
     background-repeat: no-repeat;
@@ -60,79 +62,79 @@ h4 {
     animation-name: devanimation;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-    
+
 }
 
 .nurseimage:hover {
     animation-name: nursanimation;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-    
+
 }
 
 @keyframes devanimation {
     from {
-    -webkit-clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
-    clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
+        -webkit-clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
+        clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
 
     }
+
     to {
-    -webkit-clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
-    clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
-    z-index: 1;
-    transition: ease-in;
+        -webkit-clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
+        clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
+        /* z-index: 1; */
+        transition: ease-in;
 
     }
-    
+
 }
 
 @keyframes nursanimation {
     from {
-    -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
-    clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
+        -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
+        clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
     }
+
     to {
-    -webkit-clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
-    clip-path: polygon(2% 0, 100% 0, 100% 100%, 2% 100%);    
+        -webkit-clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(2% 0, 100% 0, 100% 100%, 2% 100%);
     }
 }
 
 @keyframes reversedev {
     from {
-    -webkit-clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
-    clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
-    z-index: 1;
+        -webkit-clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
+        clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
+        /* z-index: 1; */
     }
+
     to {
-    -webkit-clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
-    clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
-    transition: ease-out;
+        -webkit-clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
+        clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
+        transition: ease-out;
     }
 }
 
 @keyframes reversenurse {
     from {
-    -webkit-clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
-    clip-path: polygon(2% 0, 100% 0, 100% 100%, 2% 100%);
+        -webkit-clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(2% 0, 100% 0, 100% 100%, 2% 100%);
     }
+
     to {
-    -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
-    clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
+        -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
+        clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
     }
 }
 
 /* <----------------------------------Home Section 1------------------------------> */
 
-
-
+.aboutmesectionhero {
+    display: block;
+}
 
 
 /* <----------------------------------Footer------------------------------> */
-
-.footer-nav {
-    height: 120px;
-}
-
 #designerid {
     color: #fff;
     text-decoration: none;
