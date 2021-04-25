@@ -6,7 +6,11 @@ body {
 
 /* <----------------------------------Navbar------------------------------> */
 .navbar {
-    padding-bottom: 0;
+    padding-bottom: 1em;
+}
+
+.navbar-nav {
+    justify-content: center;
 }
 
 
@@ -107,3 +111,13 @@ body {
     }
 }
 
+/* <----------------------------------Footer------------------------------> */
+
+.footer-nav {
+    height: 120px;
+}
+
+#designerid {
+    color: #fff;
+    text-decoration: none;
+}
