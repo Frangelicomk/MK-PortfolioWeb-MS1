@@ -74,7 +74,7 @@ Download my Wireframes as PDF [Here!](https://pink-turtle-5rhns6k6.ws-eu03.gitpo
 + [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ### Frameworks, Libraries & Programs Used
-1. [Bootstrap 4.6](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
+1. [Bootstrap v4.3](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework))
     + Bootstrap was used to assist with the responsiveness and some styling of the website
 2. [Hover.css](https://ianlunn.github.io/Hover/)
     + Hover.css used for styling effects on buttons and links
@@ -119,7 +119,7 @@ done by using only pure CSS
 
 ### Code
 + The full-screen hero image code designed by myself and tested in [Adobe After Effects](https://www.adobe.com/uk/products/aftereffects.html)
-+ [Bootstrap 4.6](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)) Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
++ [Bootstrap v4.3](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)) Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 + All code was written by Michael Kefalas
 
 ### Content 
