@@ -31,6 +31,36 @@ history as my Full Stack Developer in progress/ongoing.
     + Frequent Visitors (such as Recruiters/employers/collaborators)
 + ### Design
 + ### Wireframes
+    <h3 align="center">Home Wireframe</h3>
+
+    ![Alt text](assets/wireframes/Home.png)
+
+    <h3 align="center">About Wireframe</h3>
+
+    ![Alt text](assets/wireframes/About.png)
+
+    <h3 align="center">Blog Wireframe</h3>
+
+    ![Alt text](assets/wireframes/Blog.png)
+
+    ![Alt text](assets/wireframes/blog_dev-background.png)
+
+    ![Alt text](assets/wireframes/blog_nurse-background.png)
+
+    <h3 align="center">Contact Wireframe</h3>
+
+    ![Alt text](assets/wireframes/Contact.png)
+
+    <h3 align="center">CV Wireframe</h3>
+
+    ![Alt text](assets/wireframes/CV.png)
+
+Download my Wireframes as PDF [Here!](https://coffee-louse-tub4qa31.ws-eu03.gitpod.io/files/download/?id=62ac938c-90c4-4da8-bf90-af4bc4612e18)
+
+
+
+
+
 ## Features
 
 + Responsive on all device sizes
