@@ -1,0 +1,109 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* <----------------------------------Navbar------------------------------> */
+.navbar {
+    padding-bottom: 0;
+}
+
+
+
+
+/* <----------------------------------Hero Image------------------------------> */
+
+
+.devimage {
+    display: block;
+    position: absolute;
+    background-image: url(/assets/images/profilepic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    -webkit-clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
+    clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
+    animation-name: reversedev;
+    animation-duration: 2s;
+}
+
+.nurseimage {
+    display: block;
+    position: absolute;
+    background-image: url(/assets/images/logomainphoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
+    animation-name: reversenurse;
+    animation-duration: 2s;
+
+}
+
+.devimage:hover {
+    animation-name: devanimation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition: ease-in-out;
+}
+
+.nurseimage:hover {
+    animation-name: nursanimation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition: ease-in-out;
+}
+
+@keyframes devanimation {
+    from {
+    -webkit-clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
+    clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
+
+    }
+    to {
+    -webkit-clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
+    clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
+    z-index: 1;
+
+    }
+    
+}
+
+@keyframes nursanimation {
+    from {
+    -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
+    }
+    to {
+    -webkit-clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(2% 0, 100% 0, 100% 100%, 2% 100%);    
+    }
+}
+
+@keyframes reversedev {
+    from {
+    -webkit-clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
+    clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
+    z-index: 1;
+    }
+    to {
+    -webkit-clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
+    clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
+    }
+}
+
+@keyframes reversenurse {
+    from {
+    -webkit-clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(2% 0, 100% 0, 100% 100%, 2% 100%);
+    }
+    to {
+    -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
+    }
+}
+
