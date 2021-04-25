@@ -4,21 +4,27 @@ body {
     padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Alegreya", serif;
+    font-weight: 700;
+    color: black;
+}
+
 /* <----------------------------------Navbar------------------------------> */
 .navbar {
     padding-bottom: 1em;
+    font-size: larger;
+    font-weight: 500;
 }
-
-.navbar-nav {
-    justify-content: center;
-}
-
-
-
 
 /* <----------------------------------Hero Image------------------------------> */
-
-
+.heroimage {
+    position: relative;
+    
+}
 .devimage {
     display: block;
     position: absolute;
@@ -31,6 +37,7 @@ body {
     clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
     animation-name: reversedev;
     animation-duration: 2s;
+    width: 100%;
 }
 
 .nurseimage {
@@ -45,6 +52,7 @@ body {
     clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
     animation-name: reversenurse;
     animation-duration: 2s;
+    width: 100%;
 
 }
 
@@ -52,14 +60,14 @@ body {
     animation-name: devanimation;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-    transition: ease-in-out;
+    
 }
 
 .nurseimage:hover {
     animation-name: nursanimation;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-    transition: ease-in-out;
+    
 }
 
 @keyframes devanimation {
@@ -72,6 +80,7 @@ body {
     -webkit-clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
     clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
     z-index: 1;
+    transition: ease-in;
 
     }
     
@@ -97,6 +106,7 @@ body {
     to {
     -webkit-clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
     clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
+    transition: ease-out;
     }
 }
 
@@ -110,6 +120,12 @@ body {
     clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
     }
 }
+
+/* <----------------------------------Home Section 1------------------------------> */
+
+
+
+
 
 /* <----------------------------------Footer------------------------------> */
 
