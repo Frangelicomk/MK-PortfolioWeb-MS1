@@ -51,7 +51,7 @@ p {
 }
 
 article {
-    max-width: 33%;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -184,3 +184,6 @@ article {
     color: #fff;
     text-decoration: none;
 }
+
+/* <----------------------------------About.Html and Blog i want different css in the future as the both of them
+i want to read as an article and the Blog might need monthly easy updates on articles i might write or i might want to share------------------------------> */
