@@ -185,5 +185,15 @@ article {
     text-decoration: none;
 }
 
+@media only screen and (max-width:768px) {
+    footer {
+        display: block;
+    }
+    footer .navbar ul {
+        display: none;
+        
+    }
+}
+
 /* <----------------------------------About.Html and Blog i want different css in the future as the both of them
 i want to read as an article and the Blog might need monthly easy updates on articles i might write or i might want to share------------------------------> */
