@@ -24,53 +24,40 @@ h4 {
 /* <----------------------------------Hero Image------------------------------> */
 
 .devimage {
-    
-    
     background-image: url(/assets/images/profilepic.jpg);
     background-color: #fff;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 50vh;
     -webkit-clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
     clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
     animation-name: reversedev;
-    animation-duration: 2s;
+    animation-duration: 1.2s;
     width: 100%;
-    float: left;
-    
-    
 }
 
 .nurseimage {
-    
-    
     background-image: url(/assets/images/logomainphoto.jpg);
     background-color: #fff;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     height: 50vh;
     -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
     clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
     animation-name: reversenurse;
-    animation-duration: 2s;
+    animation-duration: 1.2s;
     width: 100%;
-    float: right;
-    
-
-}
+    }
 
 .devimage:hover {
     animation-name: devanimation;
-    animation-duration: 2s;
+    animation-duration: 1.2s;
     animation-fill-mode: forwards;
 
 }
 
 .nurseimage:hover {
     animation-name: nursanimation;
-    animation-duration: 2s;
+    animation-duration: 1.2s;
     animation-fill-mode: forwards;
 
 }
