@@ -1,7 +1,23 @@
 body {
-    margin: 0;
+    
+    margin: 0 auto;
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
+    
+    
+}
+
+.clearfix {
+    clear: both;
+    margin: 0 auto;
+}
+
+section .row {
+    clear: both;
+}
+
+.row {
+    padding: 0 25% 0 25%;
 }
 
 h1,
@@ -12,6 +28,8 @@ h4 {
     font-size: 2.25em;
 
 }
+
+
 
 /* <------------------------------------- Navbar ------------------> */
 
