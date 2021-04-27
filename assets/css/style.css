@@ -1,199 +1,134 @@
-/* <----------------------------Color Pallete ------------------> */
-/* Color Theme Swatches in Hex */
-.Dark-North-1-hex { color: #011126; }
-.Dark-North-2-hex { color: #B6D0F2; }
-.Dark-North-3-hex { color: #2A4359; }
-.Dark-North-4-hex { color: #496D8C; }
-.Dark-North-5-hex { color: #84A4BF; }
-
-/* Color Theme Swatches in RGBA */
-.Dark-North-1-rgba { color: rgba(0, 17, 38, 1); }
-.Dark-North-2-rgba { color: rgba(181, 207, 242, 1); }
-.Dark-North-3-rgba { color: rgba(41, 67, 89, 1); }
-.Dark-North-4-rgba { color: rgba(72, 108, 140, 1); }
-.Dark-North-5-rgba { color: rgba(131, 163, 191, 1); }
-
-/* Color Theme Swatches in HSLA */
-.Dark-North-1-hsla { color: hsla(213, 96, 7, 1); }
-.Dark-North-2-hsla { color: hsla(213, 70, 83, 1); }
-.Dark-North-3-hsla { color: hsla(208, 36, 25, 1); }
-.Dark-North-4-hsla { color: hsla(208, 31, 41, 1); }
-.Dark-North-5-hsla { color: hsla(208, 31, 63, 1); }
-
-
-/* <---------------------------- Basic CSS for page------------------> */
-
 body {
+    margin: 0;
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
-    background-color: #B6D0F2;
-    
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: "Alegreya", serif;
-    font-weight: 700;
-    color: #011126;
-}
-
-p {
-    letter-spacing: .10rem;
+    font-family: 'Alegreya', serif;
+    font-size: 2.25em;
     
 }
-.pagedivider {
-    width: 33%;
-    height: 2px;
-    background-color: #2A4359;
-    margin-top: 32px;
-}
+/* <------------------------------------- Navbar ------------------> */
 
-article {
-    max-width: 70%;
-    margin: 0 auto;
-}
-
-
-/* <----------------------------------Navbar------------------------------> */
-
-.navbar li {
-    margin: 0;
-}
-
-
-/* <----------------------------------Hero Image------------------------------> */
-.bg-color-photo-test{
-    background-color: black;
-}
-.devimage {
-    background-image: url(/assets/images/profilepic.jpg);
-    background-color: #fff;
-    background-repeat: no-repeat;
-    height: 50vh;
-    -webkit-clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
-    clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
-    animation-name: reversedev;
-    animation-duration: 1.2s;
-    width: 100%;
-    
-}
-
-.nurseimage {
-    background-image: url(/assets/images/logomainphoto.jpg);
-    background-color: #fff;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
-    -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
-    clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
-    animation-name: reversenurse;
-    animation-duration: 1.2s;
-    width: 100%;
-    
-    }
-
-.devimage:hover {
-    animation-name: devanimation;
-    animation-duration: 1.2s;
-    animation-fill-mode: forwards;
-
-}
-
-.nurseimage:hover {
-    animation-name: nursanimation;
-    animation-duration: 1.2s;
-    animation-fill-mode: forwards;
-
-}
-
-@keyframes devanimation {
-    from {
-        -webkit-clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
-        clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
-
-    }
-
-    to {
-        -webkit-clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
-        clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
-        
-        
-    
-
-    }
-
-}
-@keyframes reversedev {
-    from {
-        -webkit-clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
-        clip-path: polygon(0 0, 98% 0, 98% 100%, 0% 100%);
-        
-    }
-
-    to {
-        -webkit-clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
-        clip-path: polygon(0 0, 10% 0, 90% 100%, 0% 100%);
-        
-    }
-}
-
-@keyframes nursanimation {
-    from {
-        -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
-        clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
-    }
-
-    to {
-        -webkit-clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
-        clip-path: polygon(2% 0, 100% 0, 100% 100%, 2% 100%);
-    }
-}
-
-@keyframes reversenurse {
-    from {
-        -webkit-clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
-        clip-path: polygon(2% 0, 100% 0, 100% 100%, 2% 100%);
-    }
-
-    to {
-        -webkit-clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
-        clip-path: polygon(10% 0, 100% 0, 100% 100%, 90% 100%);
-    }
-}
-
-/* <----------------------------------Home Section 1------------------------------> */
-
-.intro-bg {
-    background-color: #B6D0F2;
-    color: #2A4359;
-}
-.center-items {
-    justify-content: center;
-}
-
-.introduction-page-col {
+.navigationbar {
+    background-color: #0a0c18;
     display: flex;
-    height: 41.40vh;
-    width: 100%;
-    margin-top: 25px;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 60px;
 }
-/* <----------------------------------Footer------------------------------> */
-#designerid {
-    color: #fff;
+
+
+.navigationbar .logo { 
     text-decoration: none;
+    color: #ffffff;
+    
 }
 
-@media only screen and (max-width:768px) {
-    footer {
-        display: block;
-    }
-    footer .navbar ul {
-        display: none;
-        
-    }
+
+.list-items {
+    display: inline-flex;
+}
+.navigationbar nav a {
+    
+    text-decoration: none;
+    color: cornsilk;
+    padding-left: 20px;
+    
+    
 }
 
-/* <----------------------------------About.Html and Blog i want different css in the future as the both of them
-i want to read as an article and the Blog might need monthly easy updates on articles i might write or i might want to share------------------------------> */
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a:hover {
+    color: darkgoldenrod;
+}
+
+nav ul li a .active {
+    color: darksalmon;
+    
+}
+
+/* <------------------------------------- Jumbotrons ------------------> */
+
+.coderimagejumbo {
+    background-image: url(/assets/images/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 50vh;
+}
+.nurseimagejumbo {
+    background-image: url(/assets/images/sammy-williams-38Un6Oi5beE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    height: 50vh;
+}
+
+.jumbohr {
+    display: flex;
+    width: 5em;
+    height: 7px;
+    border: none;
+}
+
+.hr-light {
+    margin-left: 0;
+    background-color: rgb(182, 95, 45);
+    
+}
+
+.hr-dark {
+    margin-right: 0;
+    background-color: rgb(12, 12, 11);
+}
+
+.jumbotextnurse {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    color: black;
+    
+    
+}
+
+.jumbotextcoder {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgb(243, 124, 69);
+    
+}
+
+.opaque-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    
+    
+}
+
+/* <------------------------------Intro Section ------------------> */
+
+.introduction-section-linkabout {
+    display: flex;
+    padding-top: 27px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    width: 33%;
+}
+
+
+/* <------------------------------Footer  ------------------> */
+.footernav {
+    padding: 0;
+}

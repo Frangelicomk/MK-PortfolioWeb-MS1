@@ -20,75 +20,75 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/hover-min.css">
 </head>
-
-<body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <a class="navbar-brand ml-1" href="#">MK Designs</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
-                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item  mr-2 active"><a class="nav-link" href="index.html">Home <span
-                                class="sr-only">(current)</span></a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="#">Blog</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="#">My CV</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="#">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <section class="container-fluid bg-color-photo-test">
-        <div class="row">
-            <div class="col-6 devimage">
-
-            </div>
-            <div class=" col-6 nurseimage">
-
-            </div>
-        </div>
-    </section>
-    <hr class="pagedivider">
-    <section class="container-fluid intro-bg">
-        <div class="row center-items introduction-page-col">
-            <div class="col-md-6 d-block">
-                <h2>Introduction about me!</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin tristique facilisis.
-                    Vestibulum ante ipsum
-                    primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed gravida quam non iaculis
-                    sagittis. Morbi consequat efficitur ex,
-                    nec tristique mi suscipit eleifend. Sed et consectetur nunc. Quisque tempus arcu non est mollis, non
-                    tempus dui sagittis.
-                    Fusce ut luctus libero. Mauris ornare, sem quis mollis semper, arcu ligula placerat magna, non
-                    mattis tortor eros ac nisl.
-                    Duis mattis sit amet magna at faucibus. Nam vestibulum dui et lacus mollis bibendum.</p>
-                <div>
-                    <button type="button" class="btn btn-outline-dark" onclick="window.location.href='https://8000-pink-silverfish-fsol443r.ws-eu03.gitpod.io/about.html'">Read
-                        More</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <footer>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <a href="#" id="designerid"><i class="far fa-copyright"></i> 2021 Michael Kefalas</a>
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item  mr-2 active"><a class="nav-link" href="#">Home <span
-                            class="sr-only">(current)</span></a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="#">About</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="#">Blog</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="#">My CV</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="#">Contact</a></li>
+<header>
+    <div class="navigationbar">
+        <a href="index.html" class="logo">MK | Designs</a>
+        <nav>
+            <ul>
+                <li class="list-items"><a href="#"><span class="active">Home</span></a></li>
+                <li class="list-items"><a href="#">About</a></li>
+                <li class="list-items"><a href="#">Blog</a></li>
+                <li class="list-items"><a href="#">My CV</a></li>
+                <li class="list-items"><a href="#">Contact</a></li>
             </ul>
         </nav>
+    </div>
+    </div>
+</header>
+<section class="container-fluid">
+    <div class="row ">
+        <div class="col-6 coderimagejumbo">
+            <div class="jumbotextcoder">
+                <h1>Being a Coder</h1>
+                <p class="lead">Why I study to be a coder</p>
+                <hr class="jumbohr hr-light">
+                <a href="#" class="btn btn-outline-light" role="button">Read More</a>
+            </div>
+        </div>
+        <div class="col-6 nurseimagejumbo">
+            <div class="jumbotextnurse">
+                <h1>Being a Nurse</h1>
+                <p class="lead">Why I became a Nurse</p>
+                <hr class="jumbohr hr-dark">
+                <a href="#" class="btn btn-outline-light" role="button">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container-fluid introduction-section-linkabout">
+    <div class="smallintro">
+        <h1>Welcome to my Website</h1>
+        <hr class="section-hr">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum neque soluta odio error ratione sapiente
+            nisi perferendis temporibus distinctio, eveniet molestiae corporis saepe consectetur, nihil necessitatibus
+            eius totam animi quod?</p>
+        <div>
+            <a href="#" class="btn btn-outline-dark" role="button">Read More</a>
+        </div>
+    </div>
+</section>
 
+<footer class="container-fluid">
+    <div class="row">
+        <div class="col footernav fixed-bottom">
+            <div class="navigationbar">
+                <a href="index.html" class="logo">MK | Designs</a>
+                <ul>
+                    <li class="list-items"><a href="#">instagram</a></li>
+                    <li class="list-items"><a href="#">facebook</a></li>
+                    <li class="list-items"><a href="#">github</a></li>
+                    <li class="list-items"><a href="#">behance</a></li>
+                </ul>
 
-    </footer>
+            </div>
+        </div>
+    </div>
+    
+
+</footer>
+
+<body>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
