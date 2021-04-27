@@ -10,8 +10,9 @@ h3,
 h4 {
     font-family: 'Alegreya', serif;
     font-size: 2.25em;
-    
+
 }
+
 /* <------------------------------------- Navbar ------------------> */
 
 .navigationbar {
@@ -23,23 +24,24 @@ h4 {
 }
 
 
-.navigationbar .logo { 
+.navigationbar .logo {
     text-decoration: none;
     color: #ffffff;
-    
+
 }
 
 
 .list-items {
     display: inline-flex;
 }
+
 .navigationbar nav a {
-    
+
     text-decoration: none;
     color: cornsilk;
     padding-left: 20px;
-    
-    
+
+
 }
 
 nav ul li {
@@ -52,7 +54,7 @@ nav ul li a:hover {
 
 nav ul li a .active {
     color: darksalmon;
-    
+
 }
 
 /* <------------------------------------- Jumbotrons ------------------> */
@@ -65,6 +67,7 @@ nav ul li a .active {
     color: #ffffff;
     height: 50vh;
 }
+
 .nurseimagejumbo {
     background-image: url(/assets/images/sammy-williams-38Un6Oi5beE-unsplash.jpg);
     background-repeat: no-repeat;
@@ -84,7 +87,7 @@ nav ul li a .active {
 .hr-light {
     margin-left: 0;
     background-color: rgb(182, 95, 45);
-    
+
 }
 
 .hr-dark {
@@ -98,8 +101,8 @@ nav ul li a .active {
     align-items: flex-end;
     text-align: right;
     color: black;
-    
-    
+
+
 }
 
 .jumbotextcoder {
@@ -107,28 +110,35 @@ nav ul li a .active {
     flex-direction: column;
     align-items: flex-start;
     color: rgb(243, 124, 69);
-    
+
 }
 
 .opaque-overlay {
     background-color: rgba(0, 0, 0, 0.5);
-    
-    
-    
+
+
+
 }
 
 /* <------------------------------Intro Section ------------------> */
 
 .introduction-section-linkabout {
-    display: flex;
+    height: 50vh;
+}
+
+.smallintro {
     padding-top: 27px;
-    padding-bottom: 10px;
-    margin: 0 auto;
-    width: 33%;
+    justify-content: center;
 }
 
 
+
 /* <------------------------------Footer  ------------------> */
+footer {
+    margin: 0;
+
+}
+
 .footernav {
     padding: 0;
 }
