@@ -20,50 +20,9 @@ h4 {
 
 /* <------------------------------------- Navbar ------------------> */
 
-.navigationbar {
-    background-color: #0a0c18;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    height: 60px;
-    width: 100%;
-    
-}
 
 
-.navigationbar .logo {
-    text-decoration: none;
-    color: #ffffff;
 
-}
-
-
-.list-items {
-    display: inline-flex;
-}
-
-.navigationbar nav a {
-
-    text-decoration: none;
-    color: cornsilk;
-    padding-left: 20px;
-
-
-}
-
-nav ul li {
-    list-style: none;
-}
-
-nav ul li a:hover {
-    color: darkgoldenrod;
-}
-
-nav ul li a .active {
-    color: darksalmon;
-
-}
 /* <------------------------------------- Jumbotrons ------------------> */
 
 .coderimagejumbo {
@@ -71,7 +30,6 @@ nav ul li a .active {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: #ffffff;
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -83,7 +41,6 @@ nav ul li a .active {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: #ffffff;
     height: 50vh;
     display: flex;
     justify-content: center;
