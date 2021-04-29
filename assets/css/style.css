@@ -114,7 +114,8 @@ nav ul li a .active {
     color: black;
     margin-left: auto;
     text-align: right;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px;
 
 
 
@@ -123,28 +124,31 @@ nav ul li a .active {
 .jumbotextcoder {
     margin-right: auto;
     color: rgb(243, 124, 69);
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
 
 }
 
 .opaque-overlay {
-    background-color: rgba(0, 0, 0, 0.5);
-
-
-
+    background-color: black;
 }
 
 /* <------------------------------Intro Section ------------------> */
 
 .introduction-section-linkabout {
-    justify-content: center;
     
+    padding: 50px 10px;
+    margin: 0 auto;
 }
 
-.smallintro {
-    
-    margin: auto;
+.introduction-section-linkabout h1 {
+    text-align: center;
 }
+
+.introduction-section-linkabout p {
+    margin-left: 15px;
+}
+
 
 
 
@@ -216,16 +220,20 @@ nav ul li a .active {
     padding: 20px;
     background-color: pink;
 }  
-.myfooternopadding {
+.clearfix {
     margin: 0;
     padding: 0;
 }
 .footernav {
     background-color: black;
+    padding: 10px;
     
+}
+
+
     
 
-}
+
 
 @media only screen and (max-width: 765px) {
 .aboumetest {
