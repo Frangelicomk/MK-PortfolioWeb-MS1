@@ -20,80 +20,86 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="assets/css/hover-min.css">
 </head>
-<body class="clearfix">
-    <header>
-    <div class="navigationbar">
-        <a href="index.html" class="logo">MK | Designs</a>
-        <nav>
+<body>
+    <header class="header">
+        <div>
+            <a href="index.html" class="logo" aria-label="Home link">MK | Designs</a>
+        </div>
+        <input type="checkbox" id="NavTogglerIcon">
+        <label for="NavTogglerIcon" class="nav-toggle-icon">
+            <span></span>
+        </label>
+        <nav class="navbar">
             <ul>
-                <li class="list-items"><a href="index.html">Home</a></li>
-                <li class="list-items"><a href="blog.html">Blog</a></li>
-                <li class="list-items"><a href="about.html"><span class="active">About</span></a></li>
-                <li class="list-items"><a href="#">My CV</a></li>
-                <li class="list-items"><a href="#">Contact</a></li>
+                <li><a href="about.html" class="hvr-underline-from-center" aria-label="About me page">About</a></li>
+                <li><a href="blog.html" class="hvr-underline-from-center" aria-label="My Blog">Blog</a></li>
+                <li><a href="#" class="hvr-underline-from-center" aria-label="Contact Me">Contact</a></li>
+                <li><a href="#" class="hvr-underline-from-center" aria-label="My CV">My CV</a></li>
             </ul>
         </nav>
-        </div>
-        
     </header>
-    <section class="page-content">
-         <div class="row">
-            <div class="col-5">
-                <h3>Why and How i Became a <br> Nurse</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quae laudantium corrupti <br>
-                    assumenda! Ipsum neque veritatis, saepe fugiat omnis cum qui optio accusantium,
-                    quod consequatur quam ea nulla. Saepe, molestias?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
-                    Obcaecati dolorem ab quis dolores tempora distinctio minus aut saepe
-                    deserunt officia inventore hic sapiente eum, expedita sit commodi, rem at in.</p>
-                <button type="button" class="btn btn-outline-dark" onclick="window.location.href='#'">Read
-                    More</button>
-            </div>
-            <div class="col-7 imageaboutnursing">
-                <img src="/assets/images/ussama-azam-Ozjw1LEB-z0-unsplash.jpg" alt="nurseimagetwo" height="400"
-                    width="400">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-5">
-                <h3>Why and How i study to be a<br> Coder</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quae laudantium corrupti <br>
-                    assumenda! Ipsum neque veritatis, saepe fugiat omnis cum qui optio accusantium,
-                    quod consequatur quam ea nulla. Saepe, molestias?</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
-                    Obcaecati dolorem ab quis dolores tempora distinctio minus aut saepe
-                    deserunt officia inventore hic sapiente eum, expedita sit commodi, rem at in.</p>
-                <button type="button" class="btn btn-outline-dark" onclick="window.location.href='#'">Read
-                    More</button>
-            </div>
-            <div class="col-7 imageaboutnursing">
-                <img src="/assets/images/sai-kiran-anagani-5Ntkpxqt54Y-unsplash.jpg" alt="nurseimagetwo" height="400"
-                    width="400">
+    <hr class="hr-light">
+    <section class="becamenursearticle">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-7 col-md-12">
+                    <h2>Why and how I have<br> become a Nurse</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sunt laboriosam sit
+                        voluptas, ipsam accusamus a fugiat hic ut libero cupiditate perspiciatis sequi repellendus
+                        eos.
+                    </p>
+                    <a href="about.html" class="btn btn-outline-dark btn-accent-colors" role="button">Read More</a>
+                </div>
+                <div class="col-lg-5 sm-d-none">
+                    <img src="/assets/images/nguy-n-hi-p-ufwC2cmbaaI-unsplash.jpg" width="450px" alt="">
+                </div>
             </div>
         </div>
-        <div class="row social-media-links">
-            <div class="col-5">
-            <h3>Social Media</h3>
-            <ul>
-                <li><a href="#" target="_blank" class="facebook">Come and say hello on Facebook</a>
-                    <span class="sr-only">Facebook</span></li>
-                <li><a href="#" target="_blank" class="instagram">You can Stalk my life on Insta</a>
-                    <span class="sr-only">Instagram</span></li>
-                <li><a href="#" target="_blank" class="behance">Follow me on behance</a>
-                    <span class="sr-only">behance</span></li>
-                <li><a href="#" target="_blank" class="githu">Lets Colaborate on Github</a>
-                    <span class="sr-only">Github</span></li>
-                <li><a href="#" target="_blank" class="linkedin">Connect with me on Linkedin</a>
-                    <span class="sr-only">Linkedin</span></li>
-                <li><a href="#" target="_blank" class="dribbble">See my wort on Dribbble</a>
-                    <span class="sr-only">Dribbble</span></li>
-
-
-            </ul>
+    </section>
+    <hr class="hr-light">
+    <section class="studyingtobedev">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 sm-d-none">
+                    <img src="/assets/images/quinton-coetzee-xcweYgakbRo-unsplash.jpg" width="450px" alt="">
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <h2>Why and how I study<br>to become a Dev</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sunt laboriosam sit
+                        voluptas, ipsam accusamus a fugiat hic ut libero cupiditate perspiciatis sequi repellendus
+                        eos.
+                    </p>
+                    <a href="about.html" class="btn btn-outline-dark btn-accent-colors" role="button">Read More</a>
+                </div>
             </div>
-            <div class="col-7">
-                <img src="/assets/images/clay-banks-cEzMOp5FtV4-unsplash.jpg" alt="nurseimagetwo" height="400"
-                    width="400">
+        </div>
+    </section>
+    <hr class="hr-light">
+    <section class="social-links">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col sm-12">
+                    <h2>Social Links</h2>
+                    <p>and where to find me</p>
+                    <hr class="hr-light">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/michael-kefalas-44109a18a/" class="linkedin"
+                                target="_blank">Let's
+                                connect in Linked In</a><span class="sr-only">Linked In</span></li>
+                        <li><a href="https://dribbble.com/MKefalas" class="dribble" target="_blank">Get inspired on
+                                Dribbble</a><span class="sr-only">Dribbble</span></li>
+                        <li><a href="https://www.behance.net/michaelkefalas" class="behance" target="_blank">Follow
+                                me on Behance</a><span class="sr-only">Behance</span></li>
+                        <li><a href="https://github.com/Frangelicomk" class="github" target="_blank">Colaborate with
+                                me on Github</a><span class="sr-only">GitHub</span></li>
+                        <li><a href="https://www.facebook.com/Frangelico87/" class="facebook" target="_blank">Like
+                                me on Facebook ( if
+                                you may )</a><span class="sr-only">Facebook</span></li>
+                        <li><a href="https://www.instagram.com/frangelico_87/" class="instagram"
+                                target="_blank">Feel Free to stalk my
+                                life on Insta</a><span class="sr-only">Instagram</span></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
