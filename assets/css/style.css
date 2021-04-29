@@ -16,11 +16,26 @@
     color: #E0E2DB;
 }
 
+.piechart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        #E0E2DB 280deg, 
+
+     #c97d60 0 25deg);
+}
+
 /* <-------------------------------------Universal CSS   ------------------> */
 
 body {
     margin: 0;
     font-family: 'Dosis', sans-serif;
+    background-color: #0F1020;
+    color: #E0E2DB;
 }
 
 h1, h2, h3, h4 {
