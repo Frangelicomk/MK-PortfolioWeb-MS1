@@ -22,8 +22,24 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
+        <div>
+            <a href="index.html" class="logo" aria-label="Home link">MK | Designs</a>
+        </div>
+        <input type="checkbox" id="NavTogglerIcon">
+        <label for="NavTogglerIcon" class="nav-toggle-icon">
+            <span></span>
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="about.html" class="hvr-underline-from-center" aria-label="About me page">About</a></li>
+                <li><a href="blog.html" class="hvr-underline-from-center" aria-label="My Blog">Blog</a></li>
+                <li><a href="#" class="hvr-underline-from-center" aria-label="Contact Me">Contact</a></li>
+                <li><a href="#" class="hvr-underline-from-center" aria-label="My CV">My CV</a></li>
+            </ul>
+        </nav>
     </header>
+    <hr class="hr-light">
     <main>
         <section class="aboutme">
             <div class="container-fluid">
@@ -132,7 +148,7 @@
                         <a href="about.html" class="btn btn-outline-dark btn-accent-colors" role="button">Read More</a>
                     </div>
                 </div>
-            </div> 
+            </div>
         </section>
         <hr class="hr-light">
         <section class="social-links">
@@ -142,12 +158,23 @@
                         <h2>Social Links</h2>
                         <p>and where to find me</p>
                         <hr class="hr-light">
-                        <a href="https://www.linkedin.com/in/michael-kefalas-44109a18a/" target="_blank">Let's connect in Linked In</a>
-                        <a href="https://dribbble.com/MKefalas" target="_blank">Get inspired on Dribbble</a>
-                        <a href="https://www.behance.net/michaelkefalas" target="_blank">Follow me on Behance</a>
-                        <a href="https://github.com/Frangelicomk" target="_blank">Colaborate with me on Github</a>
-                        <a href="https://www.facebook.com/Frangelico87/" target="_blank">Like me on Facebook ( if you may )</a>
-                        <a href="https://www.instagram.com/frangelico_87/" target="_blank">Feel Free to stalk my life on Insta</a>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/michael-kefalas-44109a18a/" class="linkedin"
+                                    target="_blank">Let's
+                                    connect in Linked In</a><span class="sr-only">Linked In</span></li>
+                            <li><a href="https://dribbble.com/MKefalas" class="dribble" target="_blank">Get inspired on
+                                    Dribbble</a><span class="sr-only">Dribbble</span></li>
+                            <li><a href="https://www.behance.net/michaelkefalas" class="behance" target="_blank">Follow
+                                    me on Behance</a><span class="sr-only">Behance</span></li>
+                            <li><a href="https://github.com/Frangelicomk" class="github" target="_blank">Colaborate with
+                                    me on Github</a><span class="sr-only">GitHub</span></li>
+                            <li><a href="https://www.facebook.com/Frangelico87/" class="facebook" target="_blank">Like
+                                    me on Facebook ( if
+                                    you may )</a><span class="sr-only">Facebook</span></li>
+                            <li><a href="https://www.instagram.com/frangelico_87/" class="instagram"
+                                    target="_blank">Feel Free to stalk my
+                                    life on Insta</a><span class="sr-only">Instagram</span></li>
+                        </ul>
                     </div>
                 </div>
             </div>
