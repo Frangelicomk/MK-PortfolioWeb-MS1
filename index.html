@@ -22,25 +22,22 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <a class="navbar-brand ml-1" href="#">MK Designs</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
-                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item  mr-2 active"><a class="nav-link" href="index.html">Home <span
-                                class="sr-only">(current)</span></a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="#">Blog</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="#">My CV</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="#">Contact</a></li>
-                </ul>
-            </div>
+    <header class="header">
+        <div>
+            <a href="index.html" class="logo" aria-label="Home link">MK | Designs</a>
+        </div>
+        <input type="checkbox" id="NavTogglerIcon">
+        <label for="NavTogglerIcon" class="nav-toggle-icon">
+            <span></span>
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="about.html" class="hvr-underline-from-center" aria-label="About me page">About</a></li>
+                <li><a href="blog.html" class="hvr-underline-from-center" aria-label="My Blog">Blog</a></li>
+                <li><a href="#" class="hvr-underline-from-center" aria-label="Contact Me">Contact</a></li>
+                <li><a href="#" class="hvr-underline-from-center" aria-label="My CV">My CV</a></li>
+            </ul>
         </nav>
-
     </header>
     <section class="container-fluid page-content-index">
         <div class="row">
@@ -49,20 +46,20 @@
                     <h1>Being a Coder</h1>
                     <p class="lead">Why I study to be a coder</p>
                     <hr class="jumbohr hr-light">
-                    <a href="#" class="btn btn-outline-light" role="button">Read More</a>
+                    <a href="#" class="btn btn-outline-dark btn-accent-colors" role="button">Read More</a>
                 </div>
             </div>
             <div class="col-12 col-xl-6 nurseimagejumbo clearfix">
                 <div class="jumbotextnurse">
                     <h1>Being a Nurse</h1>
                     <p class="lead">Why I became a Nurse</p>
-                    <hr class="jumbohr hr-dark">
-                    <a href="#" class="btn btn-warning" role="button" style="font-weight: 600;">Read More</a>
+                    <hr class="jumbohr hr-light">
+                    <a href="#" class="btn btn-outline-dark btn-accent-colors" role="button">Read More</a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="container-fluid">
+    <section class="container-fluid light-background-color text-color-variation">
         <div class="row">
             <div class="col-md-6 smallintro introduction-section-linkabout">
                 <h1>Welcome to my Website</h1>
@@ -73,7 +70,7 @@
                     necessitatibus
                     eius totam animi quod?</p>
                 <p>
-                    <a href="about.html" class="btn btn-outline-dark" role="button">Read More</a>
+                    <a href="about.html" class="btn btn-outline-dark btn-accent-colors" role="button">Read More</a>
                 </p>
             </div>
         </div>
@@ -82,24 +79,17 @@
     <footer class="container-fluid">
         <div class="row">
             <div class="col-xs-6 col-lg-12 clearfix">
-                <nav class="navbar navbar-expand-md navbar-dark bg-dark footernav">
-                    <a class="navbar-brand ml-1" href="#">MK Designs</a>
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item  mr-2 active"><a class="nav-link" href="index.html">Home <span
-                                    class="sr-only">(current)</span></a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="#">Blog</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="#">My CV</a></li>
-                        <li class="nav-item mr-2"><a class="nav-link" href="#">Contact</a></li>
+                <a href="index.html" class="logo" aria-label="Home link">MK | Designs</a>
+                <div class="footernav">
+                    <ul>
+                        <li><a href="about.html" aria-label="About me page">About</a></li>
+                        <li><a href="blog.html" aria-label="My Blog">Blog</a></li>
+                        <li><a href="#" aria-label="Contact Me">Contact</a></li>
+                        <li><a href="#" aria-label="My CV">My CV</a></li>
                     </ul>
-                </nav>
+                </div>
             </div>
-
         </div>
-        
-
-
-
     </footer>
 
 
