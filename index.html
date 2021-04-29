@@ -18,26 +18,32 @@
         href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    
+
 </head>
 
 <body>
     <header class="header">
-        <div>
-            <a href="index.html" class="logo" aria-label="Home link">MK | Designs</a>
+        <div class="container-fluid">
+            <div class="row">
+                <div>
+                    <a href="index.html" class="logo" aria-label="Home link">MK | Designs</a>
+                </div>
+                <input type="checkbox" id="nav-check">
+                <label for="nav-check" class="nav-toggler">
+                    <span></span>
+                </label>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="about.html" class="hvr-underline-from-center" aria-label="About me page">About</a>
+                        </li>
+                        <li><a href="blog.html" class="hvr-underline-from-center" aria-label="My Blog">Blog</a></li>
+                        <li><a href="contact.html" class="hvr-underline-from-center" aria-label="Contact Me">Contact</a>
+                        </li>
+                        <li><a href="#" class="hvr-underline-from-center" aria-label="My CV">My CV</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <input type="checkbox" id="NavTogglerIcon">
-        <label for="NavTogglerIcon" class="nav-toggle-icon">
-            <span></span>
-        </label>
-        <nav class="navbar">
-            <ul>
-                <li><a href="about.html" class="hvr-underline-from-center" aria-label="About me page">About</a></li>
-                <li><a href="blog.html" class="hvr-underline-from-center" aria-label="My Blog">Blog</a></li>
-                <li><a href="contact.html" class="hvr-underline-from-center" aria-label="Contact Me">Contact</a></li>
-                <li><a href="#" class="hvr-underline-from-center" aria-label="My CV">My CV</a></li>
-            </ul>
-        </nav>
     </header>
     <section class="container-fluid page-content-index">
         <div class="row">
@@ -78,15 +84,18 @@
 
     <footer class="container-fluid">
         <div class="row">
-            <div class="col-xs-6 col-lg-12 clearfix">
+            <div class="col-xs-6 col-lg-6 clearfix">
                 <a href="index.html" class="logo" aria-label="Home link">MK | Designs</a>
-                <div class="footernav">
-                    <ul>
-                        <li><a href="about.html" aria-label="About me page">About</a></li>
-                        <li><a href="blog.html" aria-label="My Blog">Blog</a></li>
-                        <li><a href="#" aria-label="Contact Me">Contact</a></li>
-                        <li><a href="#" aria-label="My CV">My CV</a></li>
-                    </ul>
+                <div class="col-lg-6">
+                    <nav class="footer-nav">
+                        <ul>
+                            <li><a href="about.html" aria-label="About me page">About</a></li>
+                            <li><a href="blog.html" aria-label="My Blog">Blog</a></li>
+                            <li><a href="contact.html" aria-label="Contact Me">Contact</a></li>
+                            <li><a href="#" aria-label="My CV">My CV</a></li>
+                        </ul>
+
+                    </nav>
                 </div>
             </div>
         </div>

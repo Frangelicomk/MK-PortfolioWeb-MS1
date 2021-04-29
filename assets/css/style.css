@@ -56,6 +56,13 @@ p {
     padding: 0;
 }
 
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+
 .btn-accent-colors {
     background-color: #c97d60;
     border: none;
@@ -70,58 +77,47 @@ img {
 
 /* <------------------------------------- Navbar ------------------> */
 
-header {
+
+.header{
     position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #0F1020;
-    align-items: flex-start;
-    width: 100%;
-    padding: 20px;
+	background-color: #0F1020;
+	padding:12px 0;
+	position: relative;
+}
+.header .logo,
+.header .nav{
+	padding:0 15px;
+}
+.header .logo a{
+	font-size: 30px;
+	color: #E0E2DB;
+	text-transform: capitalize;
+}
+.header .nav ul li{
+	display: inline-block;
+	margin-left: 40px;
+}
+.header .nav ul li a{
+	display: block;
+	font-size: 16px;
+	padding:10px 0;
+	color: #E0E2DB;
+	text-transform: capitalize;
+	transition: all 0.5s ease;
+
 }
 
-.header a {
-    color: #E0E2DB;
+.header .nav ul li a:hover {
     text-decoration: none;
 }
 
-.header .logo {
-    display: inline-block;
-    font-size: 30px;
-}
-
-.header .logo:hover {
-    color: #b0b1adda;
-    text-decoration: none;
-    transition: all 0.5s ease;
-}
-
-.navbar {
-    margin-right: 20%;
-    background-color: #0F1020;
-}
-
-.navbar ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.navbar ul li {
-    display: inline-block;
-    margin-bottom: 1em;
-    margin-left: 2em;
-}
-
-.navbar ul li a {
-    display: block;
-    color: #E0E2DB;
-    text-decoration: none;
-    font-size: 1.2rem;
-    text-transform: capitalize;
-    padding: 10px 0;
-    transition: all 0.5s ease;
+.header #nav-check{
+	position: absolute;
+	opacity:0;
+	pointer-events: none;
 }
 
 .active {
@@ -130,52 +126,38 @@ header {
 
 /* <------------------------------------- Nav Toggler ------------------> */
 
-.navbar a:hover, .navbar a:focus {
-    color: #b0b1adda;
-    text-decoration: none;
+.nav-toggler{
+	height: 34px;
+	width: 44px;
+	background-color: #0F1020;
+	border-radius: 4px;
+	cursor: pointer;
+	display: none;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
 }
-
-.header #NavTogglerIcon {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
+.nav-toggler span{
+	display: block;
+	height: 2px;
+	width: 20px;
+	background-color: #c97d60;
+	position: relative;
 }
-
-.nav-toggle-icon {
-    height: 34px;
-    width: 44px;
-    background-color: #0F1020;
-    border-radius: 4px;
-    cursor: pointer;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    margin-right: 15px;
+.nav-toggler span::before,
+.nav-toggler span::after{
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background-color: #c97d60;
+   left:0;
 }
-
-.nav-toggle-icon span {
-    display: block;
-    height: 2px;
-    width: 28px;
-    background-color: #c97d60;
-    position: relative;
+.nav-toggler span::before{
+	top: -6px;
 }
-
-.nav-toggle-icon span::before, .nav-toggle-icon span::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #c97d60;
-    left: 0;
-}
-
-.nav-toggle-icon span::before {
-    top: -6px;
-}
-
-.nav-toggle-icon span::after {
-    top: 6px;
+.nav-toggler span::after{
+	top: 6px;
 }
 
 /* <--------------------------------- Nav Hover Effect From HoverCSS --------------------- */
@@ -303,48 +285,45 @@ header {
 
 /* <------------------------------Footer  ------------------> */
 
-.footernav {
-    padding-top: 20px;
-}
+
 
 /* <------------------------------Media Queries ------------------> */
 
 @media (max-width: 768px) {
-    .footernav ul {
-        display: none;
+    .nav-toggler{
+    	display: flex;
     }
-    .nav-toggle-icon {
-        display: flex;
+    .header .nav{
+    	position: absolute;
+    	left:0;
+    	top:100%;
+    	width: 100%;
+    	background-color: #0F1020;
+    	border-top: 1px solid rgba(255,255,255,0.2);
+    	opacity:0;
+    	visibility: hidden;
     }
-    .header .navbar {
-        position: absolute;
-        left: 0;
-        top: 100%;
-        width: 100%;
-        background-color: #0F1020;
-        border-top: 1px solid #5D707F;
-        opacity: 0;
-        visibility: hidden;
+    .header .nav ul li{
+    	display: block;
+    	margin:0;
+        
     }
-    .header .navbar ul li {
-        display: block;
+    .header #nav-check:checked ~ .nav{
+       opacity: 1;
+       visibility: visible;
     }
-    .header #NavTogglerIcon:checked~.navbar {
-        opacity: 1;
-        visibility: visible;
+    .header #nav-check:focus ~ .nav-toggler{
+    	box-shadow: 0 0 15px #000000;
     }
-    .header #NavTogglerIcon:focus~.nav-toggle-icon {
-        box-shadow: 0 0 15px #5D707F;
+    .header #nav-check:checked ~ .nav-toggler span{
+    	background-color: transparent;
     }
-    .header #NavTogglerIcon:checked~.nav-toggle-icon span {
-        background-color: transparent;
+    .header #nav-check:checked ~ .nav-toggler span::before{
+    	top:0;
+    	transform: rotate(45deg);
     }
-    .header #NavTogglerIcon:checked~.nav-toggle-icon span::before {
-        top: 0;
-        transform: rotate(45deg);
-    }
-    .header #NavTogglerIcon:checked~.nav-toggle-icon span::after {
-        top: 0;
-        transform: rotate(-45deg);
+    .header #nav-check:checked ~ .nav-toggler span::after{
+    	top:0;
+    	transform: rotate(-45deg);
     }
 }
