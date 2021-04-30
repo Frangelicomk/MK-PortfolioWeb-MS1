@@ -247,8 +247,8 @@ img {
     width: 33%;
     height: 3px;
     display: flex;
-    margin: auto;
-    margin-bottom: 17px;
+    margin: 17px auto;
+    
     
 }
 
