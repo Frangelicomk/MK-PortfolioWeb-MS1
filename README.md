@@ -55,7 +55,7 @@ history as my Full Stack Developer in progress/ongoing.
 
     ![Alt text](assets/wireframes/CV.png)
 
-Download my Wireframes as PDF [Here!](https://pink-turtle-5rhns6k6.ws-eu03.gitpod.io/files/download/?id=ff039b89-5b55-4bb4-a3d2-745ad0469678)
+Download my Wireframes as PDF [Here!](../../assets/wireframes/My Personal Portfolio Website.pdf)
 
 
 
