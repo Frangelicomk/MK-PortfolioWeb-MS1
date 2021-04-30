@@ -90,15 +90,14 @@ Download my Wireframes as PDF [Here!](https://pink-turtle-5rhns6k6.ws-eu03.gitpo
     + Photoshop was used to create the logo, resizing images and editing photos for the website.
 8. [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html)
     + Adobe Illustrator was used to create the logo, vector images for responsiveness
-9. [Adobe XD](https://www.adobe.com/uk/products/xd.html)
-    + Adobe XD was used for better more detailed Wireframes and also to practice creating Wireframes and intractive designs before coding
-10. [Balsamiq](https://balsamiq.com)
+9. [Balsamiq](https://balsamiq.com)
     + Balsamiq was used to create the wireframes during the design process.
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of <br>the project to ensure there were no syntax errors in the project.
 + [W3C Markup Validator](https://validator.w3.org/#validate_by_uri+with_options)
 + [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
++ [Color Contrast Checker](https://color.a11y.com/)
 ### Testing User Stories
 + User Stories
 + Tested by friends from facebook and colleagues in differnt divices
@@ -109,16 +108,18 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 + The website was viewed on a variety of devices such as Desktop, Laptop, Samsung S8, Samsung S20 Ultra and iPhoneX.
 + A large amount of testing was done to ensure that all pages were linking correctly. 
 + Friends, Colleagues from work and family members were asked to review the site and documentation <br>to point out any bugs and/or user experience issues.
++ [Typeform](https://www.typeform.com/) used for feedback , I had the basic plan so i will try to attach it on my websites contact form.
 
 ### Difficulties Encountered & Bugs
 + Most difficult part is the design and animation of the Hero Image on Hover effect with lighting correctly, as i want<br> 
-done by using only pure CSS
+done by using only pure CSS - This wasnt solved yet as it was difficult to be managed with CSS at my current level but in the future i will work
+more on the animation part.
 + Read More does not work as intended looking for a solution regarding this.
+    - 29.04.2021: I have solved the issue with read more buttons, I have found the solution in [Stackoverflow](https://stackoverflow.com/questions/710089/how-do-i-make-an-html-link-look-like-a-button)
 
 ## Credits
 
 ### Code
-+ The full-screen hero image code designed by myself and tested in [Adobe After Effects](https://www.adobe.com/uk/products/aftereffects.html)
 + [Bootstrap v4.3](https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)) Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 + All code was written by Michael Kefalas
 
