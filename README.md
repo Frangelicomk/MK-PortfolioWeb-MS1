@@ -1,6 +1,6 @@
 <h1 align="center">MK Designs Portfolio</h1>
 
-[MK | Designs Portfolio Website]( https://frangelicomk.github.io/MK-PortfolioWeb-MS1/)
+[MK | Designs Portfolio Website]( https://frangelicomk.github.io/MK-PortfolioWeb-MS1/#)
 
 This is my first personal portfolio website. It is designed to be accessible and responsive on a range of 
 devices and easy to navigate for better UX for future recruiters, employers and collaborators.<br>As I do not 
