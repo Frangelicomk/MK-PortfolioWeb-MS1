@@ -211,5 +211,40 @@ img {
 
 /* <------------------------------Footer  ------------------> */
 
+footer {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer-nav {
+    position: relative;
+    align-items: flex-end;
+    
+    
+}
+
+.footer-nav .logo {
+    margin-left: 0;
+    
+    padding-right: 200px
+}
+footer .logo {
+    color: #E0E2DB;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.footer-links {
+    display: inline-flex;
+    
+}
+.nav-socials ul li a {
+    color: #E0E2DB;
+
+    
+    
+}
+
 /* <------------------------------Media Queries ------------------> */
 
