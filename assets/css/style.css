@@ -17,9 +17,6 @@
 }
 
 .piechart {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -49,8 +46,7 @@ p {
     letter-spacing: 0.1em;
     line-height: 1.5;
     min-width: 25ch;
-    max-width: (45
-    ch, 70%);
+    max-width: (45ch, 70%);
 }
 
 a {
@@ -91,10 +87,13 @@ img {
 .navbar-nav {
     display: flex;
     padding-left: 0;
+    padding-right: 110px;
     margin-bottom: 0;
     list-style: none;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+
 }
 
 .nav-link {
@@ -230,22 +229,30 @@ img {
     margin: 10px 0;
     width: 5em;
     height: 7px;
-    border: none;
+    border-radius: 5px;
+    background-color: #c97d60;
 }
 
-.hr-dark {
+.jumbohr-nurse {
+    margin-left: auto;
+}
+
+.hr-dark-uni {
     background-color: #c97d60;
     height: 10px;
 }
 
 .hr-light-uni {
-    background-color: #E0E2DB;
+    background-color: #c97d60;
+    width: 33%;
+    height: 3px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 17px;
     
 }
 
-.jumbotextnurse .hr-light-uni {
-    margin-left: auto;
-}
+
 
 .jumbotextnurse {
     color: #E0E2DB;
