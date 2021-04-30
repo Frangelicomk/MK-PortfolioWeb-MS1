@@ -200,7 +200,7 @@ img {
 /* <------------------------------------- Jumbotrons ------------------> */
 
 .coderimagejumbo {
-    background-image: url(/assets/images/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg);
+    background-image: url(../../assets/images/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg);
     background-color: #0b0c1480;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -213,7 +213,7 @@ img {
 }
 
 .nurseimagejumbo {
-    background-image: url(/assets/images/sammy-williams-38Un6Oi5beE-unsplash.jpg);
+    background-image: url(../../assets/images/sammy-williams-38Un6Oi5beE-unsplash.jpg);
     background-color: #0b0c1480;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
