@@ -55,7 +55,7 @@ history as my Full Stack Developer in progress/ongoing.
 
     ![Alt text](assets/wireframes/CV.png)
 
-Download my Wireframes as PDF [Here!](..\..\assets\wireframes\My Personal Portfolio Website.pdf)
+Download my Wireframes as PDF [Here!](assets\wireframes\My Personal Portfolio Website.pdf)
 
 
 
