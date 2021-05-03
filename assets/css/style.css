@@ -16,12 +16,7 @@
     color: #E0E2DB;
 }
 
-.piechart {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-image: conic-gradient( #E0E2DB 280deg, #c97d60 0 25deg);
-}
+
 
 /* <-------------------------------------Universal CSS   ------------------> */
 
@@ -32,6 +27,7 @@ html {
 body {
     margin: 0;
     font-family: 'Dosis', sans-serif;
+    font-size: 1.15em;
     background-color: #0F1020;
     color: #E0E2DB;
 }
@@ -355,3 +351,29 @@ footer .logo {
     }
 }
     
+/* <------------------------------ About me page ------------------> */
+
+.codeinstitute {
+    color: #E0E2DB;
+    font-family: 'Alegreya', serif;
+    font-size: 24px;
+}
+
+.codeinstitute:hover ,
+.codeinstitute:focus {
+    color: #c97d60;
+    transition: all 280ms ease-in-out;
+}
+
+
+.social-links h2,
+.social-links p {
+    text-align: center;
+}
+
+.social-links ul li a {
+    text-decoration: none;
+    color: #E0E2DB;
+    display: flex;
+    flex-wrap: wrap;
+}
