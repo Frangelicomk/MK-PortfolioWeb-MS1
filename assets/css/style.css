@@ -377,3 +377,8 @@ footer .logo {
     display: flex;
     flex-wrap: wrap;
 }
+
+.social-links ul li a:hover,
+.social-links ul li a:focus {
+    color: #c97d60;
+}

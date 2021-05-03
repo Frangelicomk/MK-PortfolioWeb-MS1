@@ -46,7 +46,7 @@
         </nav>
     </header>
     <main>
-        <section class="container-fluid">
+        <section class="container-fluid social-links">
             <div class="row justify-content-center mt-4">
                 <div class="col-lg-4 col-md-4">
                     <h2>Looking Forward hearing from you</h2>
@@ -56,19 +56,18 @@
                     <ul>
                         <li><a href="https://www.linkedin.com/in/michael-kefalas-44109a18a/" class="linkedin"
                                 target="_blank">Let's
-                                connect in Linked In</a><span class="sr-only">Linked In</span></li>
+                                connect in Linked In <i class="fab fa-linkedin-in"></i></a><span class="sr-only">Linked In</span></li>
                         <li><a href="https://dribbble.com/MKefalas" class="dribble" target="_blank">Get inspired on
-                                Dribbble</a><span class="sr-only">Dribbble</span></li>
+                                Dribbble <i class="fab fa-dribbble"></i></a><span class="sr-only">Dribbble</span></li>
                         <li><a href="https://www.behance.net/michaelkefalas" class="behance" target="_blank">Follow
-                                me on Behance</a><span class="sr-only">Behance</span></li>
+                                me on Behance <i class="fab fa-behance"></i></a><span class="sr-only">Behance</span></li>
                         <li><a href="https://github.com/Frangelicomk" class="github" target="_blank">Colaborate with
-                                me on Github</a><span class="sr-only">GitHub</span></li>
+                                me on Github <i class="fab fa-github"></i></a><span class="sr-only">GitHub</span></li>
                         <li><a href="https://www.facebook.com/Frangelico87/" class="facebook" target="_blank">Like
-                                me on Facebook ( if
-                                you may )</a><span class="sr-only">Facebook</span></li>
-                        <li><a href="https://www.instagram.com/frangelico_87/" class="instagram" target="_blank">Feel
-                                Free to stalk my
-                                life on Insta</a><span class="sr-only">Instagram</span></li>
+                                me on Facebook <i class="fab fa-facebook-f"></i></a><span class="sr-only">Facebook</span></li>
+                        <li><a href="https://www.instagram.com/frangelico_87/" class="instagram"
+                                target="_blank">Feel Free to stalk my
+                                life on Insta <i class="fab fa-instagram"></i></a><span class="sr-only">Instagram</span></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-4">
@@ -77,31 +76,38 @@
             </div>
         </section>
         <section class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>
+                        Sent me your message:
+                    </h2>
+                </div>
+            </div>
             <form class="row justify-content-center">
                 <div class="col-lg-4">
                     <div class="col-md-8">
-                        <label for="inputEmail4" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4">
+                        <label for="inputfulllane" class="form-label">Your Name:</label>
+                        <input type="name" class="form-control" id="inputfulllane">
                     </div>
                     <div class="col-md-8">
-                        <label for="inputPassword4" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4">
+                        <label for="inputEmail4" class="form-label">Your Email:</label>
+                        <input type="email" class="form-control" id="inputEmail4">
                     </div>
                     <div class="col-12">
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="gridCheck">
                             <label class="form-check-label" for="gridCheck">
-                                Check me out
+                                Subscribe to my news letter
                             </label>
                         </div>
                     </div>
                     <div class="col-12">
-                        <button type="submit" class="btn btn-primary">Sign in</button>
+                        <button type="submit" class="btn btn-outline-dark btn-accent-colors">Email Me</button>
                     </div>
                 </div>
                 <div class="col-lg-4 mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label for="textareaform" class="form-label">Your Message: </label>
+                    <textarea class="form-control" id="textareaform" rows="4"></textarea>
                 </div>
             </form>
             <div class="row">
@@ -115,8 +121,25 @@
         </section>
 
     </main>
-    <footer>
+    <footer class="container-fluid footer-nav">
+        <a href="index.html" class="logo" aria-label="Home link">MK | Designs</a>
+        <div>
 
+            <p class="copyrightp"><i class="far fa-copyright"></i> Michael Kefalas 2021</p>
+        </div>
+
+
+        <div class="nav-socials">
+            <h5>Follow me on :</h5>
+            <div>
+                <ul>
+                    <li class="footer-links"><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                    <li class="footer-links"><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li class="footer-links"><a href=""><i class="fab fa-github-square"></i></a></li>
+                    <li class="footer-links"><a href=""><i class="fab fa-dribbble"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
