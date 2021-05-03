@@ -27,7 +27,7 @@ html {
 body {
     margin: 0;
     font-family: 'Dosis', sans-serif;
-    font-size: 1.15em;
+    font-size: 1.3215rem;
     background-color: #0F1020;
     color: #E0E2DB;
 }
@@ -296,7 +296,7 @@ img {
 footer {
     display: flex;
     justify-content: center;
-    
+    margin-top: auto;
 }
 
 .footer-nav {
@@ -345,11 +345,21 @@ footer .logo {
 
 /* <------------------------------Media Queries ------------------> */
 
-@media (min-width: 993px) {
-    .navbar-nav {
-        padding-right: 110px;
+@media (min-width: 992px) {
+    
+    .feedback-btn {
+        margin-top: 1rem;
     }
 }
+
+@media (min-width: 769px) {
+    .navbar-nav {
+        padding-right: 128px;
+    }
+
+}
+    
+
     
 /* <------------------------------ About me page ------------------> */
 
@@ -374,11 +384,44 @@ footer .logo {
 .social-links ul li a {
     text-decoration: none;
     color: #E0E2DB;
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+    font-size: 1.45rem;
 }
 
 .social-links ul li a:hover,
 .social-links ul li a:focus {
     color: #c97d60;
 }
+
+/* <-------------------------- Contact Me Page ---------------------------------> */
+
+.info-contact-section {
+    margin-top: 10rem;
+    
+}
+
+
+.form-section {
+    margin: 10rem auto;
+    height: 30vh;
+}
+
+.feedback-btn a {
+    font-size: 1.25rem;
+    margin-bottom: 50px;
+    border: solid 3px #c97d60;
+    color: #c97d60;
+    transition: all 500ms ease-in-out;
+    
+}
+
+.feedback-btn a:hover,
+.feedback-btn a:focus {
+    background-color: #c97d60 ;
+    color: #0F1020;
+    border-color: #c97d60;
+    font-weight: 500;
+    
+    
+}
+
