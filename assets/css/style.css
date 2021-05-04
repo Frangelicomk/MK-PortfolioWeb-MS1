@@ -354,7 +354,7 @@ footer .logo {
 
 @media (min-width: 769px) {
     .navbar-nav {
-        padding-right: 128px;
+        padding-right: 165px;
     }
 
 }
@@ -425,3 +425,45 @@ footer .logo {
     
 }
 
+/* <----------- History CV timeline inspired by portfolio created in class ------------------> */
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #E0E2DB;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2em;
+    top: 1.8512em;
+    display: block;
+    font-weight: 500;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    position: absolute;
+    top: 2.4em;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background-color: #c97d60;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
