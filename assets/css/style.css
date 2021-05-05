@@ -1,6 +1,6 @@
 /* <------------------------------------- Colours for Website ------------------> */
 
-.dark-background-color {
+/* .dark-background-color {
     background-color: #0F1020;
 }
 
@@ -14,9 +14,7 @@
 
 .text-color-variation {
     color: #E0E2DB;
-}
-
-
+} */
 
 /* <-------------------------------------Universal CSS   ------------------> */
 
@@ -34,15 +32,11 @@ body {
 
 h1, h2, h3, h4 {
     font-family: 'Alegreya', serif;
-    
 }
 
 p {
-    
     letter-spacing: 0.1em;
-    line-height: 1.5;
-    
-    
+    line-height: 1.25;
 }
 
 a {
@@ -61,19 +55,18 @@ ul {
     font-weight: 500;
 }
 
-img {
-    width: 100%;
-}
-
 /* <------------------------------------- Navbar ------------------> */
+
 .activecurrent {
     color: #c97d60;
 }
+
 .navbar-brand {
     color: #E0E2DB;
     font-family: 'Alegreya', sans-serif;
     font-size: 1.30em;
 }
+
 .navbar-brand:hover {
     text-decoration: none;
     color: #e0e2dbbc;
@@ -88,19 +81,15 @@ img {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-
 }
 
 .nav-link {
-    
     color: #E0E2DB;
     font-size: 20px;
-    
-    
 }
+
 .nav-link:hover {
     color: #e0e2dbbc;
-    
 }
 
 /* <------------------------------------- Nav Toggler ------------------> */
@@ -119,27 +108,22 @@ img {
     height: 40px;
     padding: 0;
     margin: 10px;
-    
 }
 
 .navbar-toggler-icon {
     position: relative;
-    
     width: 35px;
     height: 2px;
     border-radius: 5px;
     background-color: #c97d60;
     transition: all .5s ease-in-out;
-    
 }
 
-.navbar-toggler-icon::before,
-.navbar-toggler-icon::after {
+.navbar-toggler-icon::before, .navbar-toggler-icon::after {
     content: '';
     position: absolute;
     display: flex;
     justify-content: center;
-    
     width: 30px;
     height: 2px;
     border-radius: 5px;
@@ -149,14 +133,11 @@ img {
 
 .navbar-toggler-icon::before {
     transform: translateY(-10px);
-    
 }
 
 .navbar-toggler-icon::after {
     transform: translateY(10px);
 }
-
-
 
 /* <--------------------------------- Nav Hover Effect From HoverCSS --------------------- */
 
@@ -232,22 +213,13 @@ img {
     margin-left: auto;
 }
 
-.hr-dark-uni {
-    background-color: #c97d60;
-    height: 10px;
-}
-
 .hr-light-uni {
     background-color: #c97d60;
     width: 33%;
     height: 3px;
     display: flex;
     margin: 17px auto;
-    
-    
 }
-
-
 
 .jumbotextnurse {
     color: #E0E2DB;
@@ -305,17 +277,16 @@ footer {
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    
-    
 }
+
 .copyrightp {
     margin-bottom: 0;
 }
+
 .footer-nav .logo {
     margin-left: 0;
-    
-    
 }
+
 footer .logo {
     color: #E0E2DB;
     text-decoration: none;
@@ -324,8 +295,6 @@ footer .logo {
 
 .footer-links {
     display: inline-flex;
-    
-    
 }
 
 .nav-socials {
@@ -345,22 +314,12 @@ footer .logo {
 
 /* <------------------------------Media Queries ------------------> */
 
-@media (min-width: 992px) {
-    
-    .feedback-btn {
-        margin-top: 1rem;
-    }
-}
-
 @media (min-width: 769px) {
     .navbar-nav {
         padding-right: 165px;
     }
-
 }
-    
 
-    
 /* <------------------------------ About me page ------------------> */
 
 .codeinstitute {
@@ -369,15 +328,12 @@ footer .logo {
     font-size: 24px;
 }
 
-.codeinstitute:hover ,
-.codeinstitute:focus {
+.codeinstitute:hover, .codeinstitute:focus {
     color: #c97d60;
     transition: all 280ms ease-in-out;
 }
 
-
-.social-links h2,
-.social-links p {
+.social-links h2, .social-links p {
     text-align: center;
 }
 
@@ -388,8 +344,7 @@ footer .logo {
     font-size: 1.45rem;
 }
 
-.social-links ul li a:hover,
-.social-links ul li a:focus {
+.social-links ul li a:hover, .social-links ul li a:focus {
     color: #c97d60;
 }
 
@@ -397,9 +352,7 @@ footer .logo {
 
 .info-contact-section {
     margin-top: 10rem;
-    
 }
-
 
 .form-section {
     margin: 10rem auto;
@@ -412,20 +365,28 @@ footer .logo {
     border: solid 3px #c97d60;
     color: #c97d60;
     transition: all 500ms ease-in-out;
-    
 }
 
-.feedback-btn a:hover,
-.feedback-btn a:focus {
-    background-color: #c97d60 ;
+.feedback-btn a:hover, .feedback-btn a:focus {
+    background-color: #c97d60;
     color: #0F1020;
     border-color: #c97d60;
     font-weight: 500;
-    
-    
 }
 
 /* <----------- History CV timeline inspired by portfolio created in class ------------------> */
+
+.mycv-header-section {
+    margin: 4em auto;
+}
+
+.mycv-header-section h1 {
+    padding-bottom: 1em;
+}
+
+.work-history-article {
+    margin-bottom: 4em;
+}
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -437,7 +398,6 @@ footer .logo {
 .timeline-item p {
     padding: 0;
     margin: 0;
-
 }
 
 .timeline-item:before {
@@ -466,4 +426,14 @@ footer .logo {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+.cv-download i {
+    color: #E0E2DB;
+    font-size: 34px;
+}
+
+.cv-download i:hover,
+.cv-download i:focus {
+    color: #c97d60;
 }
