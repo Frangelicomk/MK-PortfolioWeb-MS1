@@ -240,7 +240,7 @@ ul {
 
 .introduction-section-linkabout {
     padding: 50px 10px;
-    margin: 0 auto;
+    
 }
 
 .introduction-section-linkabout h1 {
@@ -248,8 +248,7 @@ ul {
 }
 
 .introduction-section-linkabout p {
-    margin: auto;
-    margin-bottom: 15px;
+    
     font-weight: 500;
     font-size: 1.15em;
 }
