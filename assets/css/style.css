@@ -437,3 +437,19 @@ footer .logo {
 .cv-download i:focus {
     color: #c97d60;
 }
+/* <----------- Developer and Nurse articles pages ------------------> */
+
+.navigationindexforarticles {
+    border: 2px solid #c97d60;
+    margin: 0 301.672px;
+    
+}
+
+.navigationindexforarticles a {
+    color: #E0E2DB;
+}
+
+.navigationindexforarticles a:hover,
+.navigationindexforarticles a:focus {
+    color: #c97d60;
+}
