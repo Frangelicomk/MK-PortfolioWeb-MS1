@@ -172,8 +172,8 @@ ul {
 /* <------------------------------------- Jumbotrons ------------------> */
 
 .coderimagejumbo {
-    background-image: url(../../assets/images/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg);
-    background-color: #0b0c1480;
+    background-image: url(../../assets/images/vscodeweb.jpg);
+    background-color: #0e151ae0;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-position: center;
@@ -185,7 +185,7 @@ ul {
 }
 
 .nurseimagejumbo {
-    background-image: url(../../assets/images/sammy-williams-38Un6Oi5beE-unsplash.jpg);
+    background-image: url(../../assets/images/sammy-williams-38Un6Oi5beE-unsplash.png);
     background-color: #0b0c1480;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -315,6 +315,12 @@ footer .logo {
     }
 }
 
+@media (max-width: 991px) {
+    .blog-text-nd {
+        margin-right: auto;
+    }
+    
+}
 /* <------------------------------ About me page ------------------> */
 
 .codeinstitute {
