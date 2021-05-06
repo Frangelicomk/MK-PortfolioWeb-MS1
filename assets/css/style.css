@@ -33,6 +33,7 @@ h1, h2, h3, h4 {
 p {
     letter-spacing: 0.1em;
     line-height: 1.25;
+    max-width: 55ch;
 }
 
 a {
@@ -55,7 +56,7 @@ ul , ol {
 /* <------------------------------------- Navbar ------------------> */
 
 .activecurrent {
-    color: #D09076;
+    color: #D09076 !important;
 }
 
 .navbar-brand {
@@ -270,7 +271,12 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    align-content: flex-end;
     height: 10vh;
+}
+
+.footer-nav ul {
+    padding-left: .45em;
 }
 
 .copyrightp {
@@ -340,6 +346,10 @@ footer .logo {
     margin-top: 10rem;
 }
 
+.info-contact-section ul {
+    margin: auto;
+}
+
 .feedback-btn a {
     font-size: 1.25rem;
     border: solid 3px #D09076;
@@ -352,6 +362,7 @@ footer .logo {
     border-color: #D09076;
     font-weight: 500;
 }
+
 
 /* <----------- History CV timeline inspired by portfolio created in class ------------------> */
 

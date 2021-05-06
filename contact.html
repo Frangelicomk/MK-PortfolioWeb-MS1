@@ -28,7 +28,7 @@
     <header>
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand activecurrent"><span class="sr-only">
+                <a href="index.html" class="navbar-brand"><span class="sr-only">
                         logo leads back to main index page
                     </span>MK | Designs</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -42,7 +42,8 @@
                         <li class="nav-item"><a href="blog.html" class="nav-link hvr-underline-from-center"
                                 aria-label="My Blog">Blog</a></li>
                         <li class="nav-item"><a href="contact.html" class="nav-link
-                            hvr-underline-from-center" aria-label="Contact Me" aria-current="page">Contact</a></li>
+                            hvr-underline-from-center activecurrent" aria-label="Contact Me"
+                                aria-current="page">Contact</a></li>
                         <li class="nav-item"><a href="mycv.html" class="nav-link hvr-underline-from-center"
                                 aria-label="My CV">My CV</a></li>
                     </ul>
@@ -51,7 +52,7 @@
         </nav>
     </header>
     <section class="container-fluid social-links info-contact-section">
-        <div class="row justify-content-center align-items-sm-center">
+        <div class="row justify-content-center">
             <div class="col-lg-5 col-md-7">
                 <h2>Looking forward to hear from you</h2>
                 <p>Feel free to leave your feedback,
@@ -83,7 +84,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-7 col-md-5">
+            <div class="col-lg-5 col-md-5">
                 <img src="assets/images/logomainphoto.jpg" alt="" class="img-fluid">
             </div>
         </div>
@@ -97,12 +98,13 @@
             </div>
         </div>
         <form action="#" method="GET">
-            <div class="row">
+            <div class="row justify-content-end">
                 <div class="col-md-6">
                     <div class="mb-4">
                         <label for="namefieldform" class="form-label">Your Name :</label>
-                        <input type="text" name="your-name" value size="40" class="form-control name hvr-underline-from-left" id="namefieldform"
-                            aria-required="true" aria-invalid="false" required>
+                        <input type="text" name="your-name" value size="40"
+                            class="form-control name hvr-underline-from-left" id="namefieldform" aria-required="true"
+                            aria-invalid="false" required>
                     </div>
                     <div class="mb-4">
                         <label for="emailfieldform" class="form-label">Your Email :</label>
@@ -115,10 +117,9 @@
                     <textarea class="form-control message" name="your-message" id="messageareaform" cols="40" rows="6"
                         aria-required="true" aria-invalid="false" required></textarea>
                 </div>
-                <div class="row justify-content-end mt-3">
-                    <div class="col-md-3 col-12">
-                        <button type="submit" class="form-control submit btn-accent-colors" aria-invalid="false">Send Email</button>
-                    </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-12 mt-3">
+                    <button type="submit" class="form-control submit btn-accent-colors" aria-invalid="false">Send
+                        Email</button>
                 </div>
             </div>
         </form>
