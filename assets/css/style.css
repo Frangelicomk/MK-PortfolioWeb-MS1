@@ -8,7 +8,7 @@
     color: #D09076;
 }
 
-.text-color-variation {
+.text-color {
     color: #E0E2DB;
 } */
 
@@ -471,8 +471,20 @@ footer .logo {
 
 /* <----------- Developer and Nurse articles pages ------------------> */
 
+.breadcrumb li a {
+    color: #E0E2DB ;
+}
+
 .navigationindexforarticles {
-    border: 2px solid #D09076;
+    margin-bottom: 2em;
+}
+
+.navigationindexforarticles li::before {
+    content: '\f14a';
+    font-family: FontAwesome;
+    display: inline-block;
+    color: #D09076;
+    margin-right: .2em;
 }
 
 .navigationindexforarticles a {
@@ -481,6 +493,10 @@ footer .logo {
 
 .navigationindexforarticles a:hover, .navigationindexforarticles a:focus {
     color: #D09076;
+}
+
+.developer-section-text p {
+    margin-bottom: 2em;
 }
 
 /* <------------------------------Media Queries ------------------> */
