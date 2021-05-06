@@ -7,7 +7,7 @@
     The site has been developed with basic HTML and CSS.This site will be further developed in the upcoming months
     as it will be the official Portfolio Website.">
     <meta name="keywords" content="HTML, CSS, Bootstrap, Font-Awesome, Google-Fonts">
-    <meta name="author" content="Michael Kefalas">
+    <meta http-equiv="author" content="Michael Kefalas">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Michael Kefalas</title>
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -90,40 +90,35 @@
         </div>
     </section>
     <section class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <h2>
-                    Send me your message:
-                </h2>
-            </div>
-        </div>
         <form action="#" method="GET">
-            <div class="row justify-content-end">
-                <div class="col-md-6">
-                    <div class="mb-4">
-                        <label for="namefieldform" class="form-label">Your Name :</label>
-                        <input type="text" name="your-name" value size="40"
-                            class="form-control name hvr-underline-from-left" id="namefieldform" aria-required="true"
-                            aria-invalid="false" required>
+            <fieldset>
+                <legend> Send me your message:</legend>
+                <div class="row justify-content-end">
+                    <div class="col-md-6">
+                        <div class="mb-4">
+                            <label for="namefieldform" class="form-label">Your Name :</label>
+                            <input type="text" name="your-name" value size="40"
+                                class="form-control name hvr-underline-from-left" id="namefieldform"
+                                aria-required="true" aria-invalid="false" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="emailfieldform" class="form-label">Your Email :</label>
+                            <input type="email" name="your-email" value size="40" class="form-control email"
+                                id="emailfieldform" aria-required="true" aria-invalid="false" required>
+                        </div>
                     </div>
-                    <div class="mb-4">
-                        <label for="emailfieldform" class="form-label">Your Email :</label>
-                        <input type="email" name="your-email" value size="40" class="form-control email"
-                            id="emailfieldform" aria-required="true" aria-invalid="false" required>
+                    <div class="col-md-6">
+                        <label for="messageareaform" class="form-label">Your Message :</label>
+                        <textarea class="form-control message" name="your-message" id="messageareaform" cols="40"
+                            rows="6" aria-required="true" aria-invalid="false" required></textarea>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-3 col-12 mt-3">
+                        <button type="submit" class="form-control submit btn-accent-colors" aria-invalid="false">Send
+                            Email</button>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <label for="messageareaform" class="form-label">Your Message :</label>
-                    <textarea class="form-control message" name="your-message" id="messageareaform" cols="40" rows="6"
-                        aria-required="true" aria-invalid="false" required></textarea>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-md-3 col-12 mt-3">
-                    <button type="submit" class="form-control submit btn-accent-colors" aria-invalid="false">Send
-                        Email</button>
-                </div>
-            </div>
+            </fieldset>
         </form>
-
         <div class="row feedback-btn mt-3">
             <div class="col-auto">
                 <a class="typeform-share btn btn-outline-danger"

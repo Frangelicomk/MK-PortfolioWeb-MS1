@@ -40,7 +40,7 @@ a {
     text-decoration: none;
 }
 
-ul , ol {
+ul, ol {
     list-style: none;
     padding-left: 0;
 }
@@ -54,6 +54,9 @@ ul , ol {
 }
 
 /* <------------------------------------- Navbar ------------------> */
+header {
+    margin-bottom: 7em;
+}
 
 .activecurrent {
     color: #D09076 !important;
@@ -271,7 +274,6 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    align-content: flex-end;
     height: 10vh;
 }
 
@@ -343,7 +345,7 @@ footer .logo {
 /* <-------------------------- Contact Me Page ---------------------------------> */
 
 .info-contact-section {
-    margin-top: 10rem;
+    margin-bottom: 10rem;
 }
 
 .info-contact-section ul {
@@ -362,7 +364,6 @@ footer .logo {
     border-color: #D09076;
     font-weight: 500;
 }
-
 
 /* <----------- History CV timeline inspired by portfolio created in class ------------------> */
 
@@ -434,7 +435,6 @@ footer .logo {
 .cv-download i:hover, .cv-download i:focus {
     color: #D09076;
 }
-
 
 /* <----------- Developer and Nurse articles pages ------------------> */
 
