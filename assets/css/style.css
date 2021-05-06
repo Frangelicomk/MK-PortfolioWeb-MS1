@@ -41,6 +41,7 @@ a {
 
 ul {
     list-style: none;
+    padding-left: 0;
 }
 
 .btn-accent-colors {
@@ -378,7 +379,7 @@ footer .logo {
     margin: 0;
 }
 
-.timeline-item:before {
+.timeline-item::before {
     content: attr(data-dates);
     position: absolute;
     left: 2em;
@@ -390,7 +391,7 @@ footer .logo {
     margin: 0;
 }
 
-.timeline-item:after {
+.timeline-item::after {
     width: 12px;
     height: 12px;
     display: block;
@@ -400,6 +401,14 @@ footer .logo {
     border-radius: 12px;
     content: '';
     background-color: #D09076;
+}
+
+.timeline-item li::before {
+    content: '\f14a';
+    font-family: FontAwesome;
+    display: inline-block;
+    color: #D09076;
+    margin-right: .2em;
 }
 
 .history-items {
@@ -414,6 +423,7 @@ footer .logo {
 .cv-download i:hover, .cv-download i:focus {
     color: #D09076;
 }
+
 
 /* <----------- Developer and Nurse articles pages ------------------> */
 
