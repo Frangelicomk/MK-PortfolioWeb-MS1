@@ -33,7 +33,6 @@ h1, h2, h3, h4 {
 p {
     letter-spacing: 0.1em;
     line-height: 1.25;
-    max-width: 55ch;
 }
 
 a {
@@ -45,6 +44,15 @@ ul, ol {
     padding-left: 0;
 }
 
+.hr-light-uni {
+    background-color: #D09076;
+    width: 33%;
+    height: 3px;
+    display: flex;
+    margin: 0 auto 4em;
+}
+
+
 .btn-accent-colors {
     background-color: #D09076;
     border: none;
@@ -53,9 +61,15 @@ ul, ol {
     font-weight: 500;
 }
 
+
+
 /* <------------------------------------- Navbar ------------------> */
 header {
-    margin-bottom: 7em;
+    margin-bottom: 2em;
+}
+
+.indexheader {
+    margin-bottom: 0;
 }
 
 .activecurrent {
@@ -214,14 +228,6 @@ header {
     margin-left: auto;
 }
 
-.hr-light-uni {
-    background-color: #D09076;
-    width: 33%;
-    height: 3px;
-    display: flex;
-    margin: 17px auto;
-}
-
 .jumbotextnurse {
     color: #E0E2DB;
     margin-left: auto;
@@ -316,6 +322,18 @@ footer .logo {
 
 /* <------------------------------ About me page ------------------> */
 
+.aboutme {
+    margin-bottom: 2.5em;
+}
+
+.funfactsaboutme {
+    margin-bottom: 2.5em;
+}
+
+.acasualday {
+    margin-bottom: 2.5em;
+}
+
 .codeinstitute {
     color: #E0E2DB;
     font-family: 'Alegreya', serif;
@@ -340,6 +358,21 @@ footer .logo {
 
 .social-links ul li a:hover, .social-links ul li a:focus {
     color: #D09076;
+}
+
+/* <------------------------------ Blog Page -----------------------------------> */
+
+.becamenursearticle {
+    margin-bottom: 2.5em;
+}
+
+.becamenursearticle img ,
+.studyingtobedev img {
+    margin-bottom: 0.3em;
+}
+
+.studyingtobedev {
+    margin-bottom: 2.5em;
 }
 
 /* <-------------------------- Contact Me Page ---------------------------------> */
