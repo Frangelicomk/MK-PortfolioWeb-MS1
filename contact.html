@@ -51,11 +51,12 @@
         </nav>
     </header>
     <section class="container-fluid social-links info-contact-section">
-        <div class="row justify-content-center align-items-end">
-            <div class="col-lg-4 col-md-8">
-                <h2>Looking Forward to hear from you</h2>
+        <div class="row justify-content-center align-items-sm-center">
+            <div class="col-lg-5 col-md-7">
+                <h2>Looking forward to hear from you</h2>
                 <p>Feel free to leave your feedback,
-                    by clicking the link at the end of this page</p>
+                    by clicking the link at the end of this page
+                </p>
                 <div class="hr-light-uni"></div>
                 <ul>
                     <li><a href="https://www.linkedin.com/in/michael-kefalas-44109a18a/" class="linkedin"
@@ -82,12 +83,12 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-4 col-md-8">
+            <div class="col-lg-7 col-md-5">
                 <img src="assets/images/logomainphoto.jpg" alt="" class="img-fluid">
             </div>
         </div>
     </section>
-    <section class="container-fluid form-section">
+    <section class="container-fluid">
         <div class="row">
             <div class="col-12">
                 <h2>
@@ -95,9 +96,35 @@
                 </h2>
             </div>
         </div>
+        <form action="#" method="GET">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-4">
+                        <label for="namefieldform" class="form-label">Your Name :</label>
+                        <input type="text" name="your-name" value size="40" class="form-control name hvr-underline-from-left" id="namefieldform"
+                            aria-required="true" aria-invalid="false" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="emailfieldform" class="form-label">Your Email :</label>
+                        <input type="email" name="your-email" value size="40" class="form-control email"
+                            id="emailfieldform" aria-required="true" aria-invalid="false" required>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="messageareaform" class="form-label">Your Message :</label>
+                    <textarea class="form-control message" name="your-message" id="messageareaform" cols="40" rows="6"
+                        aria-required="true" aria-invalid="false" required></textarea>
+                </div>
+                <div class="row justify-content-end mt-3">
+                    <div class="col-md-3 col-12">
+                        <button type="submit" class="form-control submit btn-accent-colors" aria-invalid="false">Send Email</button>
+                    </div>
+                </div>
+            </div>
+        </form>
 
-        <div class="row feedback-btn">
-            <div class="col-12">
+        <div class="row feedback-btn mt-3">
+            <div class="col-auto">
                 <a class="typeform-share btn btn-outline-danger"
                     href="https://form.typeform.com/to/raBtMuTD?typeform-medium=embed-snippet" data-mode="drawer_right"
                     target="_blank">Leave site a Feedback</a>

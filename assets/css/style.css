@@ -236,7 +236,6 @@ ul {
 
 .introduction-section-linkabout {
     padding: 50px 10px;
-    
 }
 
 .introduction-section-linkabout h1 {
@@ -244,7 +243,6 @@ ul {
 }
 
 .introduction-section-linkabout p {
-    
     font-weight: 500;
     font-size: 1.15em;
 }
@@ -307,20 +305,6 @@ footer .logo {
     color: #D09076;
 }
 
-/* <------------------------------Media Queries ------------------> */
-
-@media (min-width: 769px) {
-    .navbar-nav {
-        padding-right: 165px;
-    }
-}
-
-@media (max-width: 991px) {
-    .blog-text-nd {
-        margin-right: auto;
-    }
-    
-}
 /* <------------------------------ About me page ------------------> */
 
 .codeinstitute {
@@ -355,14 +339,8 @@ footer .logo {
     margin-top: 10rem;
 }
 
-.form-section {
-    margin: 10rem auto;
-    height: 30vh;
-}
-
 .feedback-btn a {
     font-size: 1.25rem;
-    margin-bottom: 50px;
     border: solid 3px #D09076;
     color: #D09076;
 }
@@ -433,23 +411,34 @@ footer .logo {
     font-size: 34px;
 }
 
-.cv-download i:hover,
-.cv-download i:focus {
+.cv-download i:hover, .cv-download i:focus {
     color: #D09076;
 }
+
 /* <----------- Developer and Nurse articles pages ------------------> */
 
 .navigationindexforarticles {
     border: 2px solid #D09076;
-    
-    
 }
 
 .navigationindexforarticles a {
     color: #E0E2DB;
 }
 
-.navigationindexforarticles a:hover,
-.navigationindexforarticles a:focus {
+.navigationindexforarticles a:hover, .navigationindexforarticles a:focus {
     color: #D09076;
+}
+
+/* <------------------------------Media Queries ------------------> */
+
+@media (min-width: 769px) {
+    .navbar-nav {
+        padding-right: 165px;
+    }
+}
+
+@media (max-width: 991px) {
+    .blog-text-nd {
+        margin-right: auto;
+    }
 }
