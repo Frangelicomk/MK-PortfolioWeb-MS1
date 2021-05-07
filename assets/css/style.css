@@ -555,6 +555,10 @@ footer .logo {
     .hvr-underline-from-center:hover::before, .hvr-underline-from-center:focus::before {
         display: none;
     }
+    .nursearticle-cvlink a::after,
+    .nursearticle-cvlink a::before {
+        display: none;
+    }
 }
 
 @media (max-width: 992px) {
