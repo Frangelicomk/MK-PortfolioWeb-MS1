@@ -258,10 +258,9 @@ header {
 .section-hr {
     margin: auto;
     background-color: #D09076;
-    width: 33%;
+    width: 50%;
     height: 2px;
-    margin-top: 17px;
-    margin-bottom: 17px;
+    margin-bottom: 1.4rem;
 }
 
 /* <------------------------------Footer  ------------------> */
