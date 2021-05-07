@@ -231,20 +231,20 @@ header {
     margin-left: auto;
     text-align: right;
     padding-bottom: 20px;
-    padding-right: 20px;
+    
 }
 
 .jumbotextcoder {
     margin-right: auto;
     color: #E0E2DB;
     padding-bottom: 20px;
-    padding-left: 20px;
+    
 }
 
 /* <------------------------------Intro Section ------------------> */
 
 .introduction-section-linkabout {
-    padding: 50px 10px;
+    margin-top: 3em;
 }
 
 .introduction-section-linkabout h1 {
@@ -253,7 +253,6 @@ header {
 
 .introduction-section-linkabout p {
     font-weight: 500;
-    font-size: 1.15em;
 }
 
 .section-hr {
@@ -540,8 +539,8 @@ footer .logo {
     }
 }
 
-@media (max-width: 991px) {
-    .blog-text-nd {
-        margin-right: auto;
+@media (max-width: 767px) {
+    .row {
+        --bs-gutter-x: 0;
     }
 }
