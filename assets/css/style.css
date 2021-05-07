@@ -60,6 +60,10 @@ ul, ol {
     font-weight: 500;
 }
 
+img {
+    border-radius: 2.45em;
+}
+
 /* <------------------------------------- Navbar ------------------> */
 
 header {
