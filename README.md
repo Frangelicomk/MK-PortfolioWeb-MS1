@@ -315,13 +315,21 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 + Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Media 
-+ Images Created by Michael Kefalas
++ Images Created and taken by Michael Kefalas
 + Logo Crated by Michael Kefalas in [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html) and a mock up was created on [Logomakr](https://logomakr.com)
-
-### Acknoledgements 
+  + Logo did not work out as intended so I will take a Logo Creation and Branding Course the following months. Added a text for logo instead to reflect the logo at this stage
++ Two images were downloaded from [Unsplash](https://unsplash.com)
+  + Special thanks to [Sammy Williams](https://unsplash.com/@sammywilliams) for the Hero image
+  + Special thanks to [Hush Naidoo](https://unsplash.com/@hush52) for the Stethiscope image
+### Acknowledgements 
 + [Adobe](https://www.adobe.com/#) for their tutorials and videos in their youtube channel found [here](https://www.youtube.com/user/AdobeCreativeCloud)
-+ Random youtubers which i got inspired from will list some later
-+ My Mentor at code institute 
++ Youtubers which i got inspired from :
+  + [Kevin Powell](https://www.kevinpowell.co) for his amazing videos regarding CSS and Grid , his approach on designs is something I want to learn and also I am having his
+  course as well for Flexbox
+  + [Gary Simon](https://dribbble.com/Coursetro) has been a great inspiration and you can follow his discord channel [here!](https://discord.gg/wQQtgNey)
++ My Mentor Chris Quinn for his last minute guidance and support.
 + Fellow Coders from [Slack](https://slack.com/intl/en-gb/)
++ Also I have to thank [Nescafe](https://www.nescafe.com/gb/) which is my go to go Coffee helping me maintain my eyes open while coding late in the evening.This doesnt count as
+an ad right? And if i continue like this I will Acknowledge Specsavers as they will soon provide me with glasses :)
 
 
