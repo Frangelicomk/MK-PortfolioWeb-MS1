@@ -314,6 +314,17 @@ footer .logo {
     color: #D09076;
 }
 
+/* <--------------------------------- Modal Design --------------------- */
+
+.modal-content {
+    background-color: #0F1020;
+    color: #E0E2DB;
+}
+
+.modal-content .btn-close {
+    background-color: #D09076 !important;
+}
+
 /* <------------------------------ About me page ------------------> */
 
 .aboutme {
