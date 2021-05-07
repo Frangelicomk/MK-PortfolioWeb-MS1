@@ -52,7 +52,6 @@ ul, ol {
     margin: 0 auto 4em;
 }
 
-
 .btn-accent-colors {
     background-color: #D09076;
     border: none;
@@ -61,9 +60,8 @@ ul, ol {
     font-weight: 500;
 }
 
-
-
 /* <------------------------------------- Navbar ------------------> */
+
 header {
     margin-bottom: 2em;
 }
@@ -345,6 +343,12 @@ footer .logo {
     transition: all 280ms ease-in-out;
 }
 
+.img-thumbnail {
+    padding: .25rem;
+    background-color: #D09076;
+    border: 1px solid #D09076;
+}
+
 .social-links h2, .social-links p {
     text-align: center;
 }
@@ -366,8 +370,7 @@ footer .logo {
     margin-bottom: 2.5em;
 }
 
-.becamenursearticle img ,
-.studyingtobedev img {
+.becamenursearticle img, .studyingtobedev img {
     margin-bottom: 0.3em;
 }
 
@@ -472,7 +475,7 @@ footer .logo {
 /* <----------- Developer and Nurse articles pages ------------------> */
 
 .breadcrumb li a {
-    color: #E0E2DB ;
+    color: #E0E2DB;
 }
 
 .navigationindexforarticles {
@@ -495,8 +498,38 @@ footer .logo {
     color: #D09076;
 }
 
-.developer-section-text p {
+.article-section-text p {
     margin-bottom: 2em;
+}
+
+.nursearticle-cvlink {
+    margin-bottom: 2em;
+}
+
+.nursearticle-cvlink a {
+    color: #E0E2DB;
+}
+
+.nursearticle-cvlink a:hover, .nursearticle-cvlink a:focus {
+    color: #D09076;
+}
+
+.nursearticle-cvlink a::after {
+    content: '\f0a8';
+    font-family: FontAwesome;
+    display: inline-block;
+    color: #D09076;
+    margin-left: .2em;
+    font-size: 2rem;
+}
+
+.nursearticle-cvlink a::before {
+    content: '\f0a9';
+    font-family: FontAwesome;
+    display: inline-block;
+    color: #D09076;
+    margin-right: .2em;
+    font-size: 2rem;
 }
 
 /* <------------------------------Media Queries ------------------> */
