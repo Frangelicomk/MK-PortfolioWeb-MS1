@@ -381,11 +381,11 @@ footer .logo {
 /* <-------------------------- Contact Me Page ---------------------------------> */
 
 .info-contact-section {
-    margin-bottom: 10rem;
+    margin-bottom: 2em;
 }
 
 .info-contact-section ul {
-    margin: auto;
+    padding-left: inherit;
 }
 
 .feedback-btn a {
