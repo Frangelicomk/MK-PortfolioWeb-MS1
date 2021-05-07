@@ -164,7 +164,7 @@ header {
     overflow: hidden
 }
 
-.hvr-underline-from-center:before {
+.hvr-underline-from-center::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -181,7 +181,7 @@ header {
     transition-timing-function: ease-out
 }
 
-.hvr-underline-from-center:active:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:hover:before {
+.hvr-underline-from-center:active::before, .hvr-underline-from-center:focus::before, .hvr-underline-from-center:hover::before {
     left: 0;
     right: 0
 }
@@ -550,5 +550,10 @@ footer .logo {
 @media (max-width: 767px) {
     .row {
         --bs-gutter-x: 0;
+    }
+
+    .hvr-underline-from-center:hover::before,
+    .hvr-underline-from-center:focus::before {
+        display: none;
     }
 }
