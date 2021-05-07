@@ -67,7 +67,8 @@ img {
 /* <------------------------------------- Navbar ------------------> */
 
 header {
-    margin-bottom: 2em;
+    margin-bottom: 1.4em;
+    
 }
 
 .indexheader {
@@ -98,6 +99,7 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    
 }
 
 .nav-link {
@@ -278,7 +280,6 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 10vh;
 }
 
 .footer-nav ul {
@@ -289,14 +290,11 @@ footer {
     margin-bottom: 0;
 }
 
-.footer-nav .logo {
-    margin-left: 0;
-}
 
 footer .logo {
     color: #E0E2DB;
     text-decoration: none;
-    font-size: 30px;
+    font-size: .9em;
 }
 
 .footer-links {
@@ -311,11 +309,15 @@ footer .logo {
 .nav-socials ul li a {
     color: #E0E2DB;
     margin-right: 4px;
-    font-size: 24px;
+    font-size: 0.9em;
 }
 
 .nav-socials ul li a:hover {
     color: #D09076;
+}
+
+.copyrightp {
+    font-size: 0.7em;
 }
 
 /* <--------------------------------- Modal Design --------------------- */
