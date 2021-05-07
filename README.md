@@ -7,7 +7,7 @@ devices and easy to navigate for better UX for future recruiters, employers and 
 have exprerience yet as a Developer this site will future both qualifications my Nursing background and work 
 history as my Full Stack Developer in progress/ongoing.
 
-![Responsive screenshot taken from amIresponsive site](assets\markdownimg\responsivecheckimage.png)
+![Responsive screenshot taken from amIresponsive site](..\..\assets\markdownimg\responsivecheckimage.png)
 
 
 ## Table of contents
