@@ -68,7 +68,6 @@ img {
 
 header {
     margin-bottom: 1.4em;
-    
 }
 
 .indexheader {
@@ -99,7 +98,6 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    
 }
 
 .nav-link {
@@ -232,8 +230,6 @@ header {
     margin-left: auto;
     text-align: right;
     padding-bottom: 20px;
-    
-    
 }
 
 .jumbotextcoder {
@@ -241,7 +237,6 @@ header {
     margin-right: auto;
     color: #E0E2DB;
     padding-bottom: 20px;
-    
 }
 
 /* <------------------------------Intro Section ------------------> */
@@ -289,7 +284,6 @@ footer {
 .copyrightp {
     margin-bottom: 0;
 }
-
 
 footer .logo {
     color: #E0E2DB;
@@ -399,6 +393,10 @@ footer .logo {
 
 .info-contact-section ul {
     padding-left: inherit;
+}
+
+.feedback-btn {
+    margin-bottom: 2em;
 }
 
 .feedback-btn a {
@@ -554,9 +552,7 @@ footer .logo {
 }
 
 @media (max-width: 767px) {
-    
-    .hvr-underline-from-center:hover::before,
-    .hvr-underline-from-center:focus::before {
+    .hvr-underline-from-center:hover::before, .hvr-underline-from-center:focus::before {
         display: none;
     }
 }
