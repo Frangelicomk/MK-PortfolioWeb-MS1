@@ -551,8 +551,14 @@ footer .logo {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .hvr-underline-from-center:hover::before, .hvr-underline-from-center:focus::before {
         display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    img {
+        margin-bottom: 2em !important;
     }
 }
