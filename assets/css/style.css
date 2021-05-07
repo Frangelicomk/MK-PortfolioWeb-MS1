@@ -222,7 +222,7 @@ header {
 
 .jumbotextnurse {
     color: #E0E2DB;
-    margin-top: 20rem;
+    margin-top: 30rem;
     margin-left: auto;
     text-align: right;
     padding-bottom: 20px;
@@ -231,7 +231,7 @@ header {
 }
 
 .jumbotextcoder {
-    margin-top: 20rem;
+    margin-top: 30rem;
     margin-right: auto;
     color: #E0E2DB;
     padding-bottom: 20px;
@@ -242,6 +242,7 @@ header {
 
 .introduction-section-linkabout {
     margin-top: 3em;
+    margin-bottom: 7em;
 }
 
 .introduction-section-linkabout h1 {
