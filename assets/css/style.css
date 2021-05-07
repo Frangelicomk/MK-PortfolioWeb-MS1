@@ -552,10 +552,7 @@ footer .logo {
 }
 
 @media (max-width: 767px) {
-    /* .row {
-        --bs-gutter-x: 0;
-    } */
-
+    
     .hvr-underline-from-center:hover::before,
     .hvr-underline-from-center:focus::before {
         display: none;
